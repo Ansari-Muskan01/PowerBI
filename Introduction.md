@@ -41,20 +41,20 @@ We can analyze how population changes over time.<br>
 
 
 BI Process : 
-Raw Data → Analysis → Insight → Decision
+**Raw Data → Analysis → Insight → Decision**
 
 Example of the BI Process
 
-Raw Data: India = 1,380 Million, China = 1,424 Million, USA = 331 Million<br>
+**Raw Data:** India = 1,380 Million, China = 1,424 Million, USA = 331 Million<br>
 ↓<br>
 
-Analysis: Compare the population of the three countries.<br>
+**Analysis:** Compare the population of the three countries.<br>
 ↓<br>
 
-Insight: China has the highest population among the three countries, while the USA has the lowest..<br>
+**Insight:** China has the highest population among the three countries, while the USA has the lowest..<br>
 ↓<br>
 
-Decision: The organization can consider China and India for further business analysis because they have larger populations.<br>
+**Decision:** The organization can consider China and India for further business analysis because they have larger populations.<br>
 
 
 ## Why is BI important?
@@ -79,7 +79,7 @@ In traditional BI, the manager may need to ask the IT or data team to prepare th
 
 With Self-Service BI, the manager can use a tool such as Power BI to connect to the data, create visualizations, apply filters, and analyze the results independently.<br>
 
-Traditional BI vs Self-Service BI
+**Traditional BI vs Self-Service BI**
 | Traditional BI                                | Self-Service BI                            |
 |---                                            |---                                         |
 | Mostly depends on IT/data teams               | Business users can analyze data themselves |
@@ -107,7 +107,7 @@ Before using this data for analysis, it may need to be cleaned and transformed.<
 
 # What is ETL?
 
-ETL stands for Extract → Transform → Load.<br>
+**ETL stands for Extract → Transform → Load.<br>**
 
 ETL is a data integration process in which data is extracted from different sources, transformed or cleaned, and then loaded into the target system.<br>
 
@@ -124,25 +124,15 @@ Remove unnecessary columns<br>
 
 **What is ELT?**
 
-ELT stands for Extract → Load → Transform.
+**ELT stands for Extract → Load → Transform.**
 
 In ELT, data is extracted from different sources and loaded into the target system first. The transformation is performed later inside the target system.
 
-ELT Process
+**1. Extract :** Data is collected from different sources.
 
-1. Extract : Data is collected from different sources.
+**2. Load :** The data is loaded into the target system, often in its raw form.
 
-2. Load : The data is loaded into the target system, often in its raw form.
-
-3. Transform : The data is cleaned and transformed inside the target system when required.
-
-ELT Flow : Data Sources → Extract → Load → Transform
-
-Example : 
-Suppose a company collects a large amount of customer data from multiple sources.
-Instead of cleaning all the data before storing it, the company first loads the raw data into a cloud data warehouse.
-Later, the data is cleaned and transformed inside the warehouse for analysis.
-
+**3. Transform :** The data is cleaned and transformed inside the target system when required.
 
 
 | ETL                                                   | ELT                                                        |
@@ -173,13 +163,6 @@ Power Query
 Power Pivot
 
 
-| Tool       | Company      | Main Use           |
-| ---------- | ------------ | ------------------ |
-| Power BI   | Microsoft    | BI & dashboards    |
-| Tableau    | Salesforce   | Data visualization |
-| Qlik Sense | Qlik         | Data analytics     |
-| Looker     | Google Cloud | BI & analytics     |
-| Excel      | Microsoft    | Data analysis      |
 
 
 # 5) What is Power BI?
