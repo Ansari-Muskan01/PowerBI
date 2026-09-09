@@ -90,14 +90,14 @@ Traditional BI vs Self-Service BI
 
 # 3) ETL vs ELT
 
-Data in an organization can come from different sources, such as:<br>
+**Data in an organization can come from different sources, such as:<br>**
 Excel files<br>
 CSV files<br>
 Databases<br>
 Websites<br>
 Applications<br>
 
-Data may also contain:<br>
+**Data may also contain:<br>**
 Missing values<br>
 Duplicate records<br>
 Incorrect data formats<br>
