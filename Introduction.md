@@ -107,7 +107,7 @@ Before using this data for analysis, it may need to be cleaned and transformed.<
 
 **What is ETL?**
 
-**ETL stands for Extract → Transform → Load.**<br>
+ETL stands for Extract → Transform → Load.<br>
 
 ETL is a data integration process in which data is extracted from different sources, transformed or cleaned, and then loaded into the target system.<br>
 
