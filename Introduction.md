@@ -16,7 +16,7 @@ Identify meaningful insights from data<br>
 Create interactive Power BI reports<br>
 
 
-What is Business Intelligence?
+# What is Business Intelligence?
 Business Intelligence, or BI, is the process of converting raw data into meaningful information and insights that help businesses make better decisions.
 
 In simple words: BI converts raw data into meaningful information and insights.
