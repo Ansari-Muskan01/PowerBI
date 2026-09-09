@@ -1,20 +1,19 @@
 ## Explore Population Dataset & Identify Key Insights
 
 - **Learning Objectives**  : 
-
 Understand the concept of Business Intelligence<br>
-Understand Self-Service Business Intelligence
-Differentiate between ETL and ELT
-Identify popular SSBI tools
-Understand what Power BI is
-Install Power BI Desktop
-Understand the benefits of Power BI
-Understand Power BI architecture
-Understand the building blocks of Power BI
-Connect Power BI with a dataset
-Explore and analyze population data
-Identify meaningful insights from data
-Create interactive Power BI reports
+Understand Self-Service Business Intelligence<br>
+Differentiate between ETL and ELT<br>
+Identify popular SSBI tools<br>
+Understand what Power BI is<br>
+Install Power BI Desktop<br>
+Understand the benefits of Power BI<br>
+Understand Power BI architecture<br>
+Understand the building blocks of Power BI<br>
+Connect Power BI with a dataset<br>
+Explore and analyze population data<br>
+Identify meaningful insights from data<br>
+Create interactive Power BI reports<br>
 
 
 What is Business Intelligence?
