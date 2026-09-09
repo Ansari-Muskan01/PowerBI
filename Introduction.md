@@ -104,14 +104,27 @@ Incorrect data formats<br>
 Unnecessary columns<br>
 Inconsistent data<br>
 
+Before using this data for analysis, it may need to be cleaned and transformed.<b>
 
 What is ETL?
 
-ETL = Extract → Transform → Load<br>
-ETL is a traditional process where data is:<br>
-Extracted from different sources<br>
-Transformed or cleaned<br>
-Loaded into the target system<br>
+**ETL stands for Extract → Transform → Load.**
+ETL is a data integration process in which data is extracted from different sources, transformed or cleaned, and then loaded into the target system.
+
+ETL Process
+
+1. Extract : Data is collected from different sources.<br>
+
+2. Transform : Data is cleaned and converted into the required format.<br>
+For example:<br>
+Remove duplicate records<br>
+Handle missing values<br>
+Change data types<br>
+Remove unnecessary columns<br>
+
+3. Load : The transformed data is loaded into the target system, such as a database or data warehouse.<br>
+
+
 
 What is ELT?<br>
 ELT = Extract → Load → Transform<br>
