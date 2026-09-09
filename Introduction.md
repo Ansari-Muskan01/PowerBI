@@ -71,14 +71,14 @@ In simple words: Users can work with data themselves instead of depending comple
 
 Example
 
-Suppose a Sales Manager wants to know:
-Which city has the highest sales?
-Which product is performing best?
-How are sales changing month by month?
+Suppose a Sales Manager wants to know:<br>
+Which city has the highest sales?<br>
+Which product is performing best?<br>
+How are sales changing month by month?<br>
 
-In traditional BI, the manager may need to ask the IT or data team to prepare the report.
+In traditional BI, the manager may need to ask the IT or data team to prepare the report.<br>
 
-With Self-Service BI, the manager can use a tool such as Power BI to connect to the data, create visualizations, apply filters, and analyze the results independently.
+With Self-Service BI, the manager can use a tool such as Power BI to connect to the data, create visualizations, apply filters, and analyze the results independently.<br>
 
 Traditional BI vs Self-Service BI
 | Traditional BI                                | Self-Service BI                            |
