@@ -69,8 +69,7 @@ Self-Service Business Intelligence (SSBI) allows business users to analyze data 
 
 In simple words: Users can work with data themselves instead of depending completely on IT teams.<br>
 
-Example
-
+Example :
 Suppose a Sales Manager wants to know:<br>
 Which city has the highest sales?<br>
 Which product is performing best?<br>
@@ -108,8 +107,8 @@ Before using this data for analysis, it may need to be cleaned and transformed.<
 
 **What is ETL?**
 
-**ETL stands for Extract → Transform → Load.**
-ETL is a data integration process in which data is extracted from different sources, transformed or cleaned, and then loaded into the target system.
+**ETL stands for Extract → Transform → Load.**<br>
+ETL is a data integration process in which data is extracted from different sources, transformed or cleaned, and then loaded into the target system.<br>
 
 ETL Process
 
