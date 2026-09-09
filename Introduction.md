@@ -29,7 +29,34 @@ Example : Suppose we have population data
 | China    | 2020   |  1,424 Million |   
 | USA      | 2020   |  331 Million   | 
 
+This is raw data.
+
+Using BI, we can analyze this data and find useful information.
+
+For example:
+China has the highest population among these countries.
+India has a higher population than the USA.
+We can compare population between different countries.
+We can analyze how population changes over time.
 Data → Analysis → Insight → Decision
+
+BI Process : 
+Raw Data → Analysis → Insight → Decision
+
+Example of the BI Process
+
+Raw Data: India's population in 2020 = 1,380 Million
+↓
+
+Analysis: Compare India's population with other countries.
+
+↓
+
+Insight: India has one of the highest populations among the selected countries.
+
+↓
+
+Decision:: Organizations can use this information for planning resources, healthcare, infrastructure, and other services.
 
 Why is BI important?
 
