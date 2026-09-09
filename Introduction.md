@@ -65,9 +65,9 @@ Extracted from different sources
 Transformed or cleaned
 Loaded into the target system
 
-What is ELT?
-ELT = Extract → Load → Transform
-The main difference is the order of Transform and Load.
+What is ELT?<br>
+ELT = Extract → Load → Transform<br>
+The main difference is the order of Transform and Load.<br>
 
 In ELT:
 Data is extracted
