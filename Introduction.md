@@ -122,7 +122,7 @@ Remove unnecessary columns<br>
 
 **3. Load :** The transformed data is loaded into the target system, such as a database or data warehouse.<br>
 
-**What is ELT?**
+## What is ELT?
 
 **ELT stands for Extract → Load → Transform.**
 
