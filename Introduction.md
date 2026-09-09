@@ -103,7 +103,7 @@ Incorrect data formats<br>
 Unnecessary columns<br>
 Inconsistent data<br>
 
-Before using this data for analysis, it may need to be cleaned and transformed.<b>
+Before using this data for analysis, it may need to be cleaned and transformed.<br>
 
 # What is ETL?
 
