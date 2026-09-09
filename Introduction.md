@@ -166,16 +166,68 @@ Power Pivot
 
 
 # 5) What is Power BI?
-Simple Definition
 
-Power BI is a Business Intelligence and data visualization platform developed by Microsoft.
 
-It allows us to:
+Power BI is a Business Intelligence and data visualization tool developed by Microsoft. It helps users connect, clean, analyze, and visualize data and create interactive reports and dashboards.
 
-Connect to data
-Clean and transform data
-Analyze data
-Create visualizations
-Build interactive reports
-Create dashboards
-Share insights
+
+## Key Benefits of Power BI
+
+Easy Data Visualization – Create charts, graphs, and interactive dashboards.<br>
+Connects to Multiple Data Sources – Connect Excel, SQL databases, CSV files, and many other sources.<br>
+Data Transformation – Clean and transform data using Power Query.<br>
+Interactive Reports – Use filters, slicers, and drill-downs to explore data.<br>
+Real-Time Insights – Monitor and analyze updated data.<br>
+Easy Sharing – Share reports and dashboards with others.<br>
+
+
+
+## Architecture of Power BI
+
+Power BI architecture explains how data moves from different sources to reports and dashboards.
+
+Basic Flow: Data Sources → Power Query → Data Model → Reports → Dashboards
+
+**1. Data Sources**
+
+Data can come from different sources such as:
+Excel
+CSV
+SQL Server
+Web
+Cloud services
+
+**2. Power Query**
+
+Power Query is used to:
+Clean data
+Transform data
+Remove unnecessary columns
+Handle missing values
+Change data types
+
+**3. Data Model**
+The transformed data is loaded into Power BI and organized into a data model. Relationships can be created between different tables.
+
+**4. Reports**
+
+Users create interactive reports using:
+Charts
+Tables
+Cards
+Slicers
+Maps
+
+**5. Dashboards**
+
+Reports and visualizations can be used to monitor important business information through dashboards in the Power BI Service.
+
+## Building Blocks of Power BI
+
+The main building blocks of Power BI are:
+Visualizations – Charts, graphs, cards, maps, etc.
+Datasets / Semantic Models – Data used for analysis and reporting.
+Reports – A collection of interactive visualizations.
+Dashboards – A single-page view of important information.
+Tiles – Individual visual elements displayed on a dashboard.
+Dataflows – Used to prepare and transform data for reuse.
