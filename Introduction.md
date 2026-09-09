@@ -1,6 +1,6 @@
 ## Explore Population Dataset & Identify Key Insights
 
-- Learning Objectives  : 
+- # Learning Objectives  : 
 
 Understand the concept of Business Intelligence<br>
 Understand Self-Service Business Intelligence
