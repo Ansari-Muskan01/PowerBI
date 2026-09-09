@@ -45,18 +45,16 @@ Raw Data → Analysis → Insight → Decision
 
 Example of the BI Process
 
-Raw Data: India's population in 2020 = 1,380 Million
+Raw Data: India = 1,380 Million, China = 1,424 Million, USA = 331 Million
 ↓
 
-Analysis: Compare India's population with other countries.
-
+Analysis: Compare the population of the three countries.
 ↓
 
-Insight: India has one of the highest populations among the selected countries.
-
+Insight: China has the highest population, followed by India, while the USA has a much lower population.
 ↓
 
-Decision:: Organizations can use this information for planning resources, healthcare, infrastructure, and other services.
+Decision: An organization planning a new service can prioritize China and India because they have larger populations and potentially larger markets.
 
 Why is BI important?
 
