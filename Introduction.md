@@ -38,7 +38,7 @@ Which country has the highest population?
 How is population changing over time?
 What are the important trends?
 
-2. Self-Service Business Intelligence
+# 2. Self-Service Business Intelligence
 
 What is Self-Service BI?
 Self-Service Business Intelligence (SSBI) allows business users to analyze data and create reports or dashboards with minimal help from technical teams.
@@ -47,7 +47,7 @@ In simple words:
 Users can work with data themselves instead of depending completely on IT teams.
 
 
-3) ETL vs ELT
+# 3) ETL vs ELT
 
 Data may come from different sources and may contain:
 Missing values
@@ -89,7 +89,7 @@ ETL: Clean first, then store.
 ELT: Store first, then clean.
 
 
-4) SSBI Tools
+# 4) SSBI Tools
 
 1. Power BI : Microsoft's BI and data visualization platform.
 
@@ -113,7 +113,7 @@ Power Pivot
 | Excel      | Microsoft    | Data analysis      |
 
 
-5) What is Power BI?
+# 5) What is Power BI?
 Simple Definition
 
 Power BI is a Business Intelligence and data visualization platform developed by Microsoft.
