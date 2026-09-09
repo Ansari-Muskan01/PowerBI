@@ -51,7 +51,7 @@ Raw Data: India = 1,380 Million, China = 1,424 Million, USA = 331 Million<br>
 Analysis: Compare the population of the three countries.<br>
 ↓<br>
 
-Insight: China has the highest population, followed by India, while the USA has a much lower population.<br>
+Insight: China has the highest population among the three countries, while the USA has the lowest..<br>
 ↓<br>
 
 Decision: An organization planning a new service can prioritize China and India because they have larger populations and potentially larger markets.<br>
