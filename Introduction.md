@@ -90,21 +90,28 @@ Traditional BI vs Self-Service BI
 
 # 3) ETL vs ELT
 
-Data may come from different sources and may contain:
-Missing values
-Duplicate records
-Incorrect formats
-Unnecessary columns
-Different data sources
+Data in an organization can come from different sources, such as:<br>
+Excel files<br>
+CSV files<br>
+Databases<br>
+Websites<br>
+Applications<br>
+
+Data may also contain:<br>
+Missing values<br>
+Duplicate records<br>
+Incorrect data formats<br>
+Unnecessary columns<br>
+Inconsistent data<br>
 
 
 What is ETL?
-ETL = Extract → Transform → Load
 
-ETL is a traditional process where data is:
-Extracted from different sources
-Transformed or cleaned
-Loaded into the target system
+ETL = Extract → Transform → Load<br>
+ETL is a traditional process where data is:<br>
+Extracted from different sources<br>
+Transformed or cleaned<br>
+Loaded into the target system<br>
 
 What is ELT?<br>
 ELT = Extract → Load → Transform<br>
