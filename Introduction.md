@@ -28,7 +28,6 @@ Example : Suppose we have population data
 | India    | 2020   |  1,380 Million | 
 | China    | 2020   |  1,424 Million |   
 | USA      | 2020   |  331 Million   | 
-
 This is raw data.
 
 Using BI, we can analyze this data and find useful information.
@@ -56,13 +55,14 @@ Insight: China has the highest population, followed by India, while the USA has 
 
 Decision: An organization planning a new service can prioritize China and India because they have larger populations and potentially larger markets.<br>
 
-Why is BI important?
 
-BI helps us answer questions like:
-What is happening?
-Which country has the highest population?
-How is population changing over time?
-What are the important trends?
+## Why is BI important?
+
+- BI helps us answer questions like:
+What is happening?<br>
+Which country has the highest population?<br>
+How is population changing over time?<br>
+What are the important trends?<br>
 
 # 2. Self-Service Business Intelligence
 
