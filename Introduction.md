@@ -40,7 +40,7 @@ What are the important trends?
 
 # 2. Self-Service Business Intelligence
 
-What is Self-Service BI?
+What is Self-Service BI?<br>
 Self-Service Business Intelligence (SSBI) allows business users to analyze data and create reports or dashboards with minimal help from technical teams.
 
 In simple words:
