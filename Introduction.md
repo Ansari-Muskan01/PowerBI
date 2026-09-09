@@ -34,11 +34,11 @@ This is raw data.
 Using BI, we can analyze this data and find useful information.
 
 For example:
-China has the highest population among these countries.
-India has a higher population than the USA.
-We can compare population between different countries.
-We can analyze how population changes over time.
-Data → Analysis → Insight → Decision
+China has the highest population among these countries.<br>
+India has a higher population than the USA.<br>
+We can compare population between different countries.<br>
+We can analyze how population changes over time.<br>
+
 
 BI Process : 
 Raw Data → Analysis → Insight → Decision
