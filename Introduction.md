@@ -65,12 +65,28 @@ What are the important trends?<br>
 
 # 2. Self-Service Business Intelligence
 
-What is Self-Service BI?<br>
-Self-Service Business Intelligence (SSBI) allows business users to analyze data and create reports or dashboards with minimal help from technical teams.
+Self-Service Business Intelligence (SSBI) allows business users to analyze data and create reports or dashboards with minimal help from technical teams. <br> 
 
-In simple words:
-Users can work with data themselves instead of depending completely on IT teams.
+In simple words: Users can work with data themselves instead of depending completely on IT teams.<br>
 
+Example
+
+Suppose a Sales Manager wants to know:
+Which city has the highest sales?
+Which product is performing best?
+How are sales changing month by month?
+
+In traditional BI, the manager may need to ask the IT or data team to prepare the report.
+
+With Self-Service BI, the manager can use a tool such as Power BI to connect to the data, create visualizations, apply filters, and analyze the results independently.
+
+Traditional BI vs Self-Service BI
+| Traditional BI                                | Self-Service BI                            |
+|---                                            |---                                         |
+| Mostly depends on IT/data teams               | Business users can analyze data themselves |
+| Report creation may require technical support | Users can create their own reports         |
+| Changes may take more time                    | Reports can be created or modified quickly |
+| Usually requires technical knowledge          | Designed to be more user-friendly          |
 
 # 3) ETL vs ELT
 
