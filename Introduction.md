@@ -211,7 +211,7 @@ The transformed data is loaded into Power BI and organized into a data model. Re
 
 **4. Reports**
 
-Users create interactive reports using:<br>
+A report is a collection of interactive pages that presents data using different visualizations, such as:<br>
 Charts<br>
 Tables<br>
 Cards<br>
@@ -220,13 +220,13 @@ Maps<br>
 
 **5. Dashboards**
 
-Reports and visualizations can be used to monitor important business information through dashboards in the Power BI Service.<br>
+A dashboard is a single-page view that displays important information using visualizations.
 
 ## Building Blocks of Power BI
 
 The main building blocks of Power BI are:<br>
 Visualizations – Charts, graphs, cards, maps, etc.<br>
-Datasets / Semantic Models – Data used for analysis and reporting.<br>
+Datasets  – Data used for analysis and reporting.<br>
 Reports – A collection of interactive visualizations.<br>
 Dashboards – A single-page view of important information.<br>
 Tiles – Individual visual elements displayed on a dashboard.<br>
