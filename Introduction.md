@@ -17,16 +17,17 @@ Create interactive Power BI reports<br>
 
 
 # What is Business Intelligence?
-Business Intelligence, or BI, is the process of converting raw data into meaningful information and insights that help businesses make better decisions.
+Business Intelligence (BI) is the process of collecting, analyzing, and presenting data to generate meaningful information and insights that help in better decision-making.
 
-In simple words: BI converts raw data into meaningful information and insights.
+In simple words: BI converts raw data into meaningful insights that help us make better decisions.
 
-For example, a company may have data like:
-| Customer | City   | Age | Gender | Population |
-| -------- | ------ | --: | ------ | ---------: |
-| A        | Mumbai |  25 | Female |     20,000 |
-| B        | Pune   |  32 | Male   |     15,000 |
-| C        | Delhi  |  28 | Female |     25,000 |
+Example : Suppose we have population data
+
+| Country  | Year   | Population     | 
+| -------- | ------ | ---------------- 
+| India    | 2020   |  1,380 Million | 
+| China    | 2020   |  1,424 Million |   
+| USA      | 2020   |  331 Million   | 
 
 Data → Analysis → Insight → Decision
 
