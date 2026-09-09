@@ -58,8 +58,6 @@ Decision: The organization can consider China and India for further business ana
 
 
 ## Why is BI important?
-
-- BI helps us answer questions like:<br>
 What is happening?<br>
 Which country has the highest population?<br>
 How is population changing over time?<br>
