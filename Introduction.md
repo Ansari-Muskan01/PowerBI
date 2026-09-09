@@ -143,7 +143,7 @@ In ELT, data is extracted from different sources and loaded into the target syst
 | Target receives processed data                        | Target can receive raw data first                          |
 | Useful when transformation is required before storage | Useful when target system has strong processing capability |
 
-**Easy way to remember**
+**Easy way to remember**<br>
 ETL: Clean first, then store.<br>
 ELT: Store first, then clean.
 
