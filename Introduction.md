@@ -28,6 +28,7 @@ Example : Suppose we have population data
 | India    | 2020   |  1,380 Million | 
 | China    | 2020   |  1,424 Million |   
 | USA      | 2020   |  331 Million   | 
+
 This is raw data.
 
 Using BI, we can analyze this data and find useful information.
