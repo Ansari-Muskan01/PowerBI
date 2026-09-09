@@ -184,50 +184,50 @@ Easy Sharing – Share reports and dashboards with others.<br>
 
 ## Architecture of Power BI
 
-Power BI architecture explains how data moves from different sources to reports and dashboards.
+Power BI architecture explains how data moves from different sources to reports and dashboards.<br>
 
-Basic Flow: Data Sources → Power Query → Data Model → Reports → Dashboards
+Basic Flow: Data Sources → Power Query → Data Model → Reports → Dashboards<br>
 
 **1. Data Sources**
 
-Data can come from different sources such as:
-Excel
-CSV
-SQL Server
-Web
-Cloud services
+Data can come from different sources such as:<br>
+Excel<br>
+CSV<br>
+SQL Server<br>
+Website<br>
+Cloud services<br>
 
 **2. Power Query**
 
-Power Query is used to:
-Clean data
-Transform data
-Remove unnecessary columns
-Handle missing values
-Change data types
+Power Query is used to:<br>
+Clean data<br>
+Transform data<br>
+Remove unnecessary columns<br>
+Handle missing values<br>
+Change data types<br>
 
 **3. Data Model**
 The transformed data is loaded into Power BI and organized into a data model. Relationships can be created between different tables.
 
 **4. Reports**
 
-Users create interactive reports using:
-Charts
-Tables
-Cards
-Slicers
-Maps
+Users create interactive reports using:<br>
+Charts<br>
+Tables<br>
+Cards<br>
+Slicers<br>
+Maps<br>
 
 **5. Dashboards**
 
-Reports and visualizations can be used to monitor important business information through dashboards in the Power BI Service.
+Reports and visualizations can be used to monitor important business information through dashboards in the Power BI Service.<br>
 
 ## Building Blocks of Power BI
 
-The main building blocks of Power BI are:
-Visualizations – Charts, graphs, cards, maps, etc.
-Datasets / Semantic Models – Data used for analysis and reporting.
-Reports – A collection of interactive visualizations.
-Dashboards – A single-page view of important information.
-Tiles – Individual visual elements displayed on a dashboard.
-Dataflows – Used to prepare and transform data for reuse.
+The main building blocks of Power BI are:<br>
+Visualizations – Charts, graphs, cards, maps, etc.<br>
+Datasets / Semantic Models – Data used for analysis and reporting.<br>
+Reports – A collection of interactive visualizations.<br>
+Dashboards – A single-page view of important information.<br>
+Tiles – Individual visual elements displayed on a dashboard.<br>
+Dataflows – Used to prepare and transform data for reuse.<br>
