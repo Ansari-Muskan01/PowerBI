@@ -105,7 +105,7 @@ Inconsistent data<br>
 
 Before using this data for analysis, it may need to be cleaned and transformed.<b>
 
-**What is ETL?**
+# What is ETL?
 
 ETL stands for Extract → Transform → Load.<br>
 
