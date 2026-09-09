@@ -54,12 +54,12 @@ Analysis: Compare the population of the three countries.<br>
 Insight: China has the highest population among the three countries, while the USA has the lowest..<br>
 ↓<br>
 
-Decision: An organization planning a new service can prioritize China and India because they have larger populations and potentially larger markets.<br>
+Decision: The organization can consider China and India for further business analysis because they have larger populations.<br>
 
 
 ## Why is BI important?
 
-- BI helps us answer questions like:
+- BI helps us answer questions like:<br>
 What is happening?<br>
 Which country has the highest population?<br>
 How is population changing over time?<br>
