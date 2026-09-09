@@ -90,7 +90,7 @@ Traditional BI vs Self-Service BI
 
 # 3) ETL vs ELT
 
-**Data in an organization can come from different sources, such as:<br>**
+**organization can collect data from different sources, such as:<br>**
 Excel files<br>
 CSV files<br>
 Databases<br>
@@ -106,7 +106,7 @@ Inconsistent data<br>
 
 Before using this data for analysis, it may need to be cleaned and transformed.<b>
 
-What is ETL?
+**What is ETL?**
 
 **ETL stands for Extract → Transform → Load.**
 ETL is a data integration process in which data is extracted from different sources, transformed or cleaned, and then loaded into the target system.
@@ -124,18 +124,41 @@ Remove unnecessary columns<br>
 
 3. Load : The transformed data is loaded into the target system, such as a database or data warehouse.<br>
 
+ETL Flow : Data Sources → Extract → Transform → Load → Target System <br>
+
+Example : <br>
+Suppose a company receives customer data from Excel and a database.<br>
+
+During the transformation process:<br>
+Removes duplicate customers<br>
+Fixes incorrect formats<br>
+Handles missing values<br>
+Keeps only required columns<br>
+The cleaned and transformed data is ready for analysis and reporting.
 
 
-What is ELT?<br>
-ELT = Extract → Load → Transform<br>
-The main difference is the order of Transform and Load.<br>
+**What is ELT?**
 
-In ELT:
-Data is extracted
-Data is loaded into the target system
-Transformation happens inside the target system
+ELT stands for Extract → Load → Transform.
 
-Flow :  Data Sources -> Extract -> Load ->Transform
+In ELT, data is extracted from different sources and loaded into the target system first. The transformation is performed later inside the target system.
+
+ELT Process
+
+1. Extract : Data is collected from different sources.
+
+2. Load : The data is loaded into the target system, often in its raw form.
+
+3. Transform : The data is cleaned and transformed inside the target system when required.
+
+ELT Flow : Data Sources → Extract → Load → Transform
+
+Example : 
+Suppose a company collects a large amount of customer data from multiple sources.
+Instead of cleaning all the data before storing it, the company first loads the raw data into a cloud data warehouse.
+Later, the data is cleaned and transformed inside the warehouse for analysis.
+
+
 
 | ETL                                                   | ELT                                                        |
 | ----------------------------------------------------- | ---------------------------------------------------------- |
