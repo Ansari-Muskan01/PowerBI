@@ -33,7 +33,7 @@ This is raw data.
 
 Using BI, we can analyze this data and find useful information.
 
-For example:
+For example:<br>
 China has the highest population among these countries.<br>
 India has a higher population than the USA.<br>
 We can compare population between different countries.<br>
