@@ -111,31 +111,16 @@ ETL stands for Extract → Transform → Load.<br>
 
 ETL is a data integration process in which data is extracted from different sources, transformed or cleaned, and then loaded into the target system.<br>
 
-ETL Process
+**1. Extract :** Data is collected from different sources.<br>
 
-1. Extract : Data is collected from different sources.<br>
-
-2. Transform : Data is cleaned and converted into the required format.<br>
+**2. Transform :** Data is cleaned and converted into the required format.<br>
 For example:<br>
 Remove duplicate records<br>
 Handle missing values<br>
 Change data types<br>
 Remove unnecessary columns<br>
 
-3. Load : The transformed data is loaded into the target system, such as a database or data warehouse.<br>
-
-ETL Flow : Data Sources → Extract → Transform → Load → Target System <br>
-
-Example : <br>
-Suppose a company receives customer data from Excel and a database.<br>
-
-During the transformation process:<br>
-Removes duplicate customers<br>
-Fixes incorrect formats<br>
-Handles missing values<br>
-Keeps only required columns<br>
-The cleaned and transformed data is ready for analysis and reporting.
-
+**3. Load :** The transformed data is loaded into the target system, such as a database or data warehouse.<br>
 
 **What is ELT?**
 
