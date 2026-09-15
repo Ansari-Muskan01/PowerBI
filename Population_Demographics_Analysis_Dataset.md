@@ -93,17 +93,17 @@ Categorical Data
 
 Questions:
 
-1 - Total population in each region.    (Hint : Chart: Clustered Column Chart)<br>
-Fields: X-axis → Country Y-axis → Population
+1 - What is the total population in each city. (Hint : Stacked Column Chart)<br>
+Fields: X-axis → city  , Y-axis → Population
 
-2 - Which states have the highest population? (Hint : Clustered Bar Chart)<br>
-Fields: Y-axis → State X-axis → Population
+2 -  What is the total population in each state. (Hint : Stacked Bar Chart)<br>
+Fields: Y-axis → State ,  X-axis → Population , 
 
-3 - Compare Urban and Rural Population for each country. (Hint : Stacked Column Chart)<br>
-Fields:  X-axis → Country , Y-axis → Urban_Population , Y-axis → Rural_Population
+3 - Compare Urban and Rural Population for each city. (Hint : Clustered Column Chart)<br>
+Fields:  X-axis → city , Y-axis → Urban_Population , Y-axis → Rural_Population
 
-4 - What is the percentage of the population living in urban and rural areas across states? (100% Stacked Column Chart)<br>
-Fields:  X-axis → Country , Y-axis → Urban_Population , Y-axis → Rural_Population
+4 - Compare Urban and Rural Population for each state. (Hint : Clustered Bar Chart)<br>
+Fields:  X-axis → state , Y-axis → Urban_Population , Y-axis → Rural_Population
 
 5 - How does population change over the years? (Hint : Line Chart) <br>
 Fields: X-axis → Year , Y-axis → Population
@@ -111,8 +111,20 @@ Fields: X-axis → Year , Y-axis → Population
 6 - How does Urban and Rural Population change over the years?  (Hint : Area Chart) <br>
 Fields: X-axis → Year , Y-axis → Urban_Population, Rural_Population
 
-7 - What is the population distribution across regions? <(Hint : Pie Chart) <br>
+7 - What is the death rate  across regions? (Hint : Pie Chart) <br>
 Fields:  Legend → Region Values → Population
+
+8 - What is the birth rate  across regions? (Hint : Donut Chart) <br>
+Fields:  Legend → Region Values → Population
+
+9 - Compare the percentage of Birth Rate and Death Rate across states. (100% Stacked Column Chart)
+Fields: X-axis → State , Y-axis → Birth_Rate, Death_Rate
+
+
+
+
+
+
 
 8 - What is the population distribution across regions? (Hint : Donut Chart) <br>
 Fields:   Legend → Region , Values → Population
