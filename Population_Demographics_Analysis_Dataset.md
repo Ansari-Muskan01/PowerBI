@@ -89,3 +89,13 @@ Categorical Data
 | Blank     |       3 |
 
 
+
+
+Questions:
+
+1 - What is the total population of each country?    (Hint : Chart: Clustered Column Chart)
+2 - Which states have the highest population? (Hint : Clustered Bar Chart)
+3 - Compare Urban and Rural Population for each country. (Hint : Stacked Column Chart)
+4 - What percentage of the population is Urban vs Rural for each country? (100% Stacked Column Chart)
+5 - How does population change over the years? (Hint : Line Chart)
+6 - Show the population trend over the years. (Hint : Area Chart)
