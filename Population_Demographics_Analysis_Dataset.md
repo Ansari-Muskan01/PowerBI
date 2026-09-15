@@ -1,3 +1,7 @@
+# Data Description
+This dataset contains population-related information for different countries, regions, states, and cities across different years. It can be used to analyze population size, population distribution, growth, literacy, density, birth rate, and death rate.
+
+
 | Column               | Description                                    |
 | -------------------- | ---------------------------------------------- |
 | **Country**          | Name of the country                            |
