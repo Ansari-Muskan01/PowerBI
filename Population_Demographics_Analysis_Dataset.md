@@ -93,9 +93,44 @@ Categorical Data
 
 Questions:
 
-1 - What is the total population of each country?    (Hint : Chart: Clustered Column Chart)
-2 - Which states have the highest population? (Hint : Clustered Bar Chart)
-3 - Compare Urban and Rural Population for each country. (Hint : Stacked Column Chart)
-4 - What percentage of the population is Urban vs Rural for each country? (100% Stacked Column Chart)
-5 - How does population change over the years? (Hint : Line Chart)
-6 - Show the population trend over the years. (Hint : Area Chart)
+1 - What is the total population of each country?    (Hint : Chart: Clustered Column Chart)<br>
+Fields: X-axis → Country Y-axis → Population
+
+2 - Which states have the highest population? (Hint : Clustered Bar Chart)<br>
+Fields: Y-axis → State X-axis → Population
+
+3 - Compare Urban and Rural Population for each country. (Hint : Stacked Column Chart)<br>
+Fields:  X-axis → Country , Y-axis → Urban_Population , Y-axis → Rural_Population
+
+4 - What percentage of the population is Urban vs Rural for each country? (100% Stacked Column Chart)<br>
+Fields:  X-axis → Country , Y-axis → Urban_Population , Y-axis → Rural_Population
+
+5 - How does population change over the years? (Hint : Line Chart) <br>
+Fields: X-axis → Year , Y-axis → Population
+
+6 - How does Urban and Rural Population change over the years?  (Hint : Area Chart) <br>
+Fields: X-axis → Year , Y-axis → Urban_Population, Rural_Population
+
+7 - What is the population distribution across regions? <(Hint : Pie Chart) <br>
+Fields:  Legend → Region Values → Population
+
+8 - What is the population distribution across regions? (Hint : Donut Chart) <br>
+Fields:   Legend → Region , Values → Population
+
+9 - Compare population and growth rate over the years. (Hint : Line and Clustered Column Chart) <br>
+Fields:  X-axis → Year , Column Y-axis → Population , Line Y-axis → Growth_Rate
+
+10 - What is the relationship between population and population density  (Hint : Scatter Chart)
+Fields:  X-axis → Density_per_km2 , Y-axis → Population , Details → Country , Size → Population
+
+11 - Show population by country. (Hint : Map Visuals)
+Fields:   Location → Country , Bubble Size → Population
+
+12 - Show population distribution by country or state.  (Hint : Filled Map)
+Fields:   Location → Country / State , Color saturation → Population
+
+13 - Show population distribution by Region and Country.  (Hint : Treemap)
+Fields:   Group → Region , Details → Country , Values → Population
+
+
+
