@@ -22,7 +22,7 @@ This dataset contains population-related information for different countries, re
 
 | Statistic         |       Value |
 | ----------------- | ----------: |
-| **Total Records** |      13,212 |
+| **Total Records** |      13,211 |
 | **Total Columns** |          13 |
 | **Country**       |           1 |
 | **Regions**       |           6 |
