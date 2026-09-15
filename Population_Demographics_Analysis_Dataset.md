@@ -118,19 +118,19 @@ Fields:  Legend → Region Values → Population
 Fields:   Legend → Region , Values → Population
 
 9 - Compare population and growth rate over the years. (Hint : Line and Clustered Column Chart) <br>
-Fields:  X-axis → Year , Column Y-axis → Population , Line Y-axis → Growth_Rate
+Fields:  X-axis → Year , Column Y-axis → Population , Line Y-axis → Growth_Rate<BR>
 
-10 - What is the relationship between population and population density  (Hint : Scatter Chart)
-Fields:  X-axis → Density_per_km2 , Y-axis → Population , Details → Country , Size → Population
+10 - What is the relationship between population and population density  (Hint : Scatter Chart)<BR>
+Fields:  X-axis → Density_per_km2 , Y-axis → Population , Details → Country , Size → Population<BR>
 
-11 - Show population by country. (Hint : Map Visuals)
-Fields:   Location → Country , Bubble Size → Population
+11 - Show population by country. (Hint : Map Visuals)<BR>
+Fields:   Location → Country , Bubble Size → Population<BR>
 
-12 - Show population distribution by country or state.  (Hint : Filled Map)
-Fields:   Location → Country / State , Color saturation → Population
+12 - Show population distribution by country or state.  (Hint : Filled Map)<BR>
+Fields:   Location → Country / State , Color saturation → Population<BR>
 
-13 - Show population distribution by Region and Country.  (Hint : Treemap)
-Fields:   Group → Region , Details → Country , Values → Population
+13 - Show population distribution by Region and Country.  (Hint : Treemap)<BR>
+Fields:   Group → Region , Details → Country , Values → Population<BR>
 
 
 
