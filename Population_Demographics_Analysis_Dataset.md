@@ -112,37 +112,26 @@ Fields: X-axis → Year , Y-axis → Population
 Fields: X-axis → Year , Y-axis → Urban_Population, Rural_Population
 
 7 - What is the death rate  across regions? (Hint : Pie Chart) <br>
-Fields:  Legend → Region Values → Population
+Fields:  Legend → Region Values →  death_rate 
 
 8 - What is the birth rate  across regions? (Hint : Donut Chart) <br>
-Fields:  Legend → Region Values → Population
+Fields:  Legend → Region Values → birth_rate 
 
 9 - Compare the percentage of Birth Rate and Death Rate across states. (100% Stacked Column Chart)
 Fields: X-axis → State , Y-axis → Birth_Rate, Death_Rate
 
 
-
-
-
-
-
-8 - What is the population distribution across regions? (Hint : Donut Chart) <br>
-Fields:   Legend → Region , Values → Population
-
-9 - Compare population and growth rate over the years. (Hint : Line and Clustered Column Chart) <br>
-Fields:  X-axis → Year , Column Y-axis → Population , Line Y-axis → Growth_Rate<BR>
-
 10 - What is the relationship between population and population density  (Hint : Scatter Chart)<BR>
-Fields:  X-axis → Density_per_km2 , Y-axis → Population , Details → Country , Size → Population<BR>
+Fields:  X-axis → Density_per_km2 , Y-axis → Population , Legend → Country   <BR>
 
-11 - Show population by state. (Hint : Map Visuals)<BR>
-Fields:   Location → Country , Bubble Size → Population<BR>
 
-12 - Show population distribution by state.  (Hint : Filled Map)<BR>
-Fields:   Location → Country / State , Color saturation → Population<BR>
 
-13 - Show population distribution by Region and State.  (Hint : Treemap)<BR>
-Fields:   Group → Region , Details → Country , Values → Population<BR>
+
+
+
+
+
+
 
 
 
