@@ -124,6 +124,25 @@ Fields: X-axis → State , Y-axis → Birth_Rate, Death_Rate
 10 - What is the relationship between population and population density  (Hint : Scatter Chart)<BR>
 Fields:  X-axis → Density_per_km2 , Y-axis → Population , Legend → Country   <BR>
 
+11 - How does the population change over the years across different regions? (Hint : Stacked Area Chart)<Br> 
+Fields:  X-axis → Year , Y-axis → Population , Legend → Region <Br>
+
+12 - What is the percentage distribution of Urban and Rural Population over the years? (Hint : Stacked Area Chart)<br>
+Fields:  X-axis → Year , Y-axis → Urban_Population, Rural_Population<br>
+
+13 - How does the total population change over the years, along with the Growth Rate? (Hint : 100% Stack Area Chart)<br>
+Fields:  X-axis → Year , Column Y-axis → Population , Line Y-axis → Growth_Rate<br>
+
+14 - How do Birth Rate and Death Rate compare across the years, along with the Literacy Rate? (Hint : Line and Stack Column Chart)<br>
+Fields:  X-axis → Year , Column Y-axis → Birth_Rate, Death_Rate , Line Y-axis → Literacy_Rate<br>
+
+15 - How does the population ranking of different regions change over the years? (Hint : Ribbon Chart) <br>
+Fields:  X-axis → Year , Y-axis → Population , Legend → Region <br>
+
+16 - What is the population distribution across different regions over the years? (Hint : Funnel Chart) <br>
+Fields: Values → Population , Legend → Year <br>
+
+
 
 
 
