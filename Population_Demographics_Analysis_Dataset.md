@@ -139,9 +139,11 @@ Fields:  X-axis → Year , Column Y-axis → Birth_Rate, Death_Rate , Line Y-axi
 15 - How does the population ranking of different regions change over the years? (Hint : Ribbon Chart) <br>
 Fields:  X-axis → Year , Y-axis → Population , Legend → Region <br>
 
-16 - What is the population distribution across different regions over the years? (Hint : Funnel Chart) <br>
-Fields: Values → Population , Legend → Year <br>
+16 - What is the year-over-year change in total population? (Hint : Waterfall Chart) <br>
+Fields: Category → Year , Y-axis → Population <br>
 
+17 - What is the population distribution across different regions over the years? (Hint : Funnel Chart) <br>
+Fields: Values → Population , Legend → Year <br>
 
 
 
