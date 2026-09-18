@@ -104,7 +104,7 @@ Fields: Y-axis → State ,  X-axis → Population ,
 Fields:  X-axis → city , Y-axis → Urban_Population , Y-axis → Rural_Population
 
 4 - Compare Urban and Rural Population for each state. (Hint : Clustered Bar Chart)<br>
-Fields:  X-axis → state , Y-axis → Urban_Population , Y-axis → Rural_Population
+Fields:  y-axis → state , X-axis → Urban_Population , X-axis → Rural_Population
 
 5 - How does population change over the years? (Hint : Line Chart) <br>
 Fields: X-axis → Year , Y-axis → Population
