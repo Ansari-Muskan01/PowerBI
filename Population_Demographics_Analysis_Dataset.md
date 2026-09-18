@@ -124,8 +124,8 @@ Fields: X-axis → State , Y-axis → Birth_Rate, Death_Rate
 10 - How is the total population distributed across different regions over the years? (Hint : 100% Stacked Bar Chart) <br>
 Fields: X-axis → Year , Y-axis → Population, Legend → Region <br>
 
-11 - What is the relationship between population and population density  (Hint : Scatter Chart)<BR>
-Fields:  X-axis → Density_per_km2 , Y-axis → Population , Legend → Country   <BR>
+11 - What is the relationship between population and population density  (Hint : Scatter Chart)<br>
+Fields:  X-axis → Density_per_km2 , Y-axis → Population , Legend → Region  <BR>
 
 12 - How does the population change over the years across different regions? (Hint : Stacked Area Chart)<Br> 
 Fields:  X-axis → Year , Y-axis → Population , Legend → Region <Br>
