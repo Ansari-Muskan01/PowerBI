@@ -118,10 +118,10 @@ Fields:  Legend → Region Values →  death_rate
 8 - What is the birth rate  across regions? (Hint : Donut Chart) <br>
 Fields:  Legend → Region Values → birth_rate 
 
-9 - Compare the percentage of Birth Rate and Death Rate across states. (Hint : 100% Stacked Column Chart) <br>
+9 - Compare the percentage of Birth Rate and Death Rate across states. (Hint : 100% Stacked Bar Chart) <br>
 Fields: X-axis → State , Y-axis → Birth_Rate, Death_Rate
 
-10 - How is the total population distributed across different regions over the years? (Hint : 100% Stacked Bar Chart) <br>
+10 - How is the total population distributed across different regions over the years? (Hint : 100% Stacked Column Chart) <br>
 Fields: X-axis → Year , Y-axis → Population, Legend → Region <br>
 
 11 - What is the relationship between population and population density  (Hint : Scatter Chart)<br>
