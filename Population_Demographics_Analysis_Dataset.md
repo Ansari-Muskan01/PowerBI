@@ -96,7 +96,7 @@ Questions:
 1 - What is the total population in each city. (Hint : Stacked Column Chart)<br>
 Fields: X-axis → city  , Y-axis → Population
 
-![Images](1%20-%20Stacked_Column_Chart.png)
+![Stacked Column Chart](Images/1%20-%20Stacked_Column_Chart.png)
 2 -  What is the total population in each state. (Hint : Stacked Bar Chart)<br>
 Fields: Y-axis → State ,  X-axis → Population , 
 
