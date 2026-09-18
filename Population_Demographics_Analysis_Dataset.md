@@ -148,8 +148,8 @@ Fields:  X-axis → Year , Y-axis → Population , Legend → Region <br>
 18 - What is the year-over-year change in total population? (Hint : Waterfall Chart) <br>
 Fields: Category → Year , Y-axis → Population <br>
 
-19 - What is the population distribution across different regions over the years? (Hint : Funnel Chart) 
-Fields: Category → Population , Values → Year 
+19 - What is the population distribution across different regions over the years? (Hint : Funnel Chart) <br> 
+Fields: Category → Year , Values → Population <br>
 
 20 - Show population by state. (Hint : Map Visuals)
 Fields:   Location → State , Bubble Size → Population , Legend → Region
