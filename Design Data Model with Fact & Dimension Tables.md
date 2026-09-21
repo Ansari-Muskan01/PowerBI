@@ -13,19 +13,20 @@ Fact Table → Stores transactions and measurable values.<br>
 Dimension Tables → Store descriptive information used to analyze the transactions.<br>
 
 
-                    +---------------------+
-                    |  Dimension Table    |
-                    +----------+----------+
-                               |
-                               |
-+---------------------+   +----+----------------+   +---------------------+
-|  Dimension Table    |---|     Fact Table      |---|  Dimension Table    |
-+---------------------+   +----+----------------+   +---------------------+
-                               |
-                               |
-                    +----------+----------+
-                    |  Dimension Table    |
-                    +---------------------+
+```mermaid
+flowchart TD
+    F[Fact Table]
+
+    D1[Dimension Table]
+    D2[Dimension Table]
+    D3[Dimension Table]
+    D4[Dimension Table]
+
+    D1 --> F
+    D2 --> F
+    D3 --> F
+    D4 --> F
+```
 
 # Snowflake Schema
 
