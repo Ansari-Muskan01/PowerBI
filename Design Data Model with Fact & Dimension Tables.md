@@ -1,6 +1,6 @@
 # Sales Performance Analysis
 
-- A company wants to analyze its sales data and understand:<br>
+A company wants to analyze its sales data and understand:<br>
 1- How much sales are generated?<br>
 2- Which products are performing well?<br>
 3- Which customers are purchasing more?<br>
