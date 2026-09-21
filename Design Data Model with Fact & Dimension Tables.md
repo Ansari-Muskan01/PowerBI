@@ -10,16 +10,15 @@ In Power BI, data modeling involves identifying Fact Tables and Dimension Tables
 In Star Schema, one Fact Table is directly connected to multiple Dimension Tables.
 
 Fact Table → Stores transactions and measurable values.<br>
-Dimension Tables → Store information about customers, products, dates, regions, etc.<br>
+Dimension Tables → Store descriptive information used to analyze the transactions.<br>
 
 # Snowflake Schema
 
 In Snowflake Schema, Dimension Tables are further divided into smaller related tables.
 
 Fact Table → Stores transactions and measurable values.<br>
-Dimension Tables → Store descriptive information.<br>
-Related Tables → Store more detailed information about the dimensions.<br>
-
+Dimension Tables → Store descriptive information..<br>
+Related Dimension Tables → Store additional detailed information about the dimensions.
 
 # Types of Data
 **1. Qualitative Data** : Qualitative Data is data that describes a category or characteristic.<br>
@@ -201,21 +200,21 @@ Pin_Code : Postal code of the location<br>
 | Delivery_Days | Quantitative Data |
 | Financial_Year | Qualitative Data |
 
-Order_ID: 	Unique ID of the order
-Customer_ID : 	ID of the customer who placed the order
-Product_ID : 	ID of the product purchased
-Region_ID	: ID of the region where the order was placed
-Date_ID	: ID of the date when the order was placed
-Sales : 	Total sales amount of the order
-Quantity: 	Number of products purchased
-Profit : 	Profit earned from the order
-Discount : 	Discount given on the order
-Cost_Price: 	Cost of the product
-Selling_Price	: Price at which the product was sold
-Shipping_Cost	: Cost of shipping the order
-Order_Priority: 	Priority level of the order
-Delivery_Days : 	Number of days taken to deliver the order
-Financial_Year	: Financial year of the order
+Order_ID: 	Unique ID of the order <br>
+Customer_ID : 	ID of the customer who placed the order <br>
+Product_ID : 	ID of the product purchased <br>
+Region_ID	: ID of the region where the order was placed <br>
+Date_ID	: ID of the date when the order was placed <br>
+Sales : 	Total sales amount of the order <br>
+Quantity: 	Number of products purchased <br>
+Profit : 	Profit earned from the order <br>
+Discount : 	Discount given on the order <br>
+Cost_Price: 	Cost of the product <br>
+Selling_Price	: Price at which the product was sold <br>
+Shipping_Cost	: Cost of shipping the order <br>
+Order_Priority: 	Priority level of the order <br>
+Delivery_Days : 	Number of days taken to deliver the order <br>
+Financial_Year	: Financial year of the order <br>
 
 ---
 
@@ -237,56 +236,36 @@ Financial_Year	: Financial year of the order
 - **Region → Where?**
 - **Orders → What happened?**
 
----
-Instead of keeping all information in one large table, we keep related information in separate tables and connect them using relationships.
 
-Here:
+**Overall Performance**<br>
+Total Sales <br>
+Total Profit <br>
+Total Quantity <br>
+Total Orders<br>
+Average Discount<br>
 
-Sales = Fact Table
-Customer = Dimension Table
-Product = Dimension Table
-Date = Dimension Table
-Region = Dimension Table
+**Sales Analysis**<br>
 
-# Star Schema
+Sales by Month <br>
+Sales by Category<br>
+Profit by Month <br>
+Quantity Sold by Year<br>
 
-A **Star Schema** has one central Fact Table and multiple Dimension Tables directly connected to it.
+**Product & Customer Analysis**<br>
 
+Top Products by Sales  <br>
+Sales by Customer Segment <br>
+Sales by Loyalty Status<br>
+Sales by Gender <br>
 
+**Regional Analysis**
 
-                 Customer
-                    |
-                    |
-Product -------- Sales -------- Date
-                    |
-                    |
-                  Region
-
-
-
-
-This is called a Star Schema because the structure looks like a star.
-
-
-Section 1 — Overall Performance
-
-Total Sales
-Total Profit
-Total Quantity
-Total Orders
-Average Discount
-
-Section 2 — Sales Analysis
-
-Sales by Year
-Sales by Category
+Sales by Region <br>
+Profit by Region <br>
+Sales by State <br>
+Sales by City <br>
 
 
-Section 3 — Product & Customer Analysis
-Top Products by Sales
 
-Section 4 — Regional Analysis
-
-Sales by Region
 
 
