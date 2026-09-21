@@ -129,6 +129,22 @@
 | `Competency_ID` | ID of the competency                                 |
 | `Weight`        | Importance/weight of the competency for the job role |
 
+Create Relationships Between Tables
+
+
+| From Table               | Column              | To Table                 | Column        |
+| ------------------------ | ------------------- | ------------------------ | ------------- |
+| HR_Fact                  | Department_ID       | Dim_Department           | Department_ID |
+| HR_Fact                  | Location_ID         | Dim_Location             | Location_ID   |
+| HR_Fact                  | JobRole_ID          | Dim_JobRole              | JobRole_ID    |
+| HR_Fact                  | Education_ID        | Dim_Education            | Education_ID  |
+| HR_Fact                  | Joining_Date_ID     | Dim_Date                 | Date_ID       |
+| HR_Fact                  | Last_Review_Date_ID | Dim_Date                 | Date_ID       |
+| Dim_JobRole              | JobRole_ID          | Bridge_JobRoleCompetency | JobRole_ID    |
+| Bridge_JobRoleCompetency | Competency_ID       | Dim_Competency           | Competency_ID |
+| Dim_Department           | Department_ID       | Bridge_DeptLocation      | Department_ID |
+| Bridge_DeptLocation      | Location_ID         | Dim_Location             | Location_ID   |
+
 
 ```mermaid
 flowchart TD
@@ -157,6 +173,58 @@ flowchart TD
     D1 --> SD3
     SD3 --> D5
 ```
+
+Define Cardinality
+
+Cardinality tells us how many records from one table can be related to records in another table.
+
+In Power BI, the main cardinality options are:
+
+One-to-many (1:*)
+Many-to-one (*:1)
+One-to-one (1:1)
+Many-to-many (:)
+
+| Relationship                              | Cardinality |
+| ----------------------------------------- | ----------- |
+| Dim_Department → HR_Fact                  | 1 : *       |
+| Dim_Location → HR_Fact                    | 1 : *       |
+| Dim_JobRole → HR_Fact                     | 1 : *       |
+| Dim_Education → HR_Fact                   | 1 : *       |
+| Dim_Date → HR_Fact                        | 1 : *       |
+| Dim_JobRole → Bridge_JobRoleCompetency    | 1 : *       |
+| Dim_Competency → Bridge_JobRoleCompetency | 1 : *       |
+| Dim_Department → Bridge_DeptLocation      | 1 : *       |
+| Dim_Location → Bridge_DeptLocation        | 1 : *       |
+
+
+Configure Cross-Filter Direction
+
+Cross-filter direction tells Power BI: In which direction should filtering travel between the related tables?
+
+There are two main options:
+
+Single
+Both
+
+
+4) Manage Relationships in Model View
+
+In Power BI:
+
+Model View → Manage relationships
+
+Here we can:
+Create relationships
+Edit relationships
+Delete relationships
+Change cardinality
+Change cross-filter direction
+Activate/deactivate relationships
+
+
+
+
 
 | File Name                      | Table Type      | Main Purpose                        |
 | ------------------------------ | --------------- | ----------------------------------- |
