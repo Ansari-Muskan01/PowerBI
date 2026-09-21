@@ -34,7 +34,7 @@ Loyalty_Status → Loyal, New<br>
 Easy way to remember: Qualitative Data = Description or Category<br>
 
 
-**2. Quantitative Data** : Quantitative Data is data that represents a number or a measurable value.
+**2. Quantitative Data** : Quantitative Data is data that represents a number or a measurable value.<br>
 **Examples:**<br>
 Sales → ₹50,000<br>
 Quantity → 10<br>
