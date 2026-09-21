@@ -58,6 +58,7 @@ Profit → ₹5,000<br>
 Unit_Price → ₹2,000<br>
 Delivery_Days → 5<br>
 Easy way to remember: Quantitative Data = Number or Measurement<br>
+<br>
 
 | Qualitative Data                       | Quantitative Data                  |
 | -------------------------------------- | ---------------------------------- |
