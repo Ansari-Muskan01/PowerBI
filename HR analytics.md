@@ -1,4 +1,4 @@
-1. HR_Fact.csv
+**1. HR_Fact.csv**
 
 | Column                       | Data Description                                                        |
 | ---------------------------- | ----------------------------------------------------------------------- |
@@ -33,7 +33,7 @@
 | `Comp_Ratio`                 | Employee salary compared with the expected salary range                 |
 
 
-2. Dim_Department.csv
+**2. Dim_Department.csv**
 
 | Column               | Data Description                                     |
 | -------------------- | ---------------------------------------------------- |
@@ -46,7 +46,7 @@
 | `Establishment_Year` | Year in which the department was established         |
 | `Is_Active`          | Indicates whether the department is currently active |
 
-3. Dim_Location.csv
+**3. Dim_Location.csv**
 
 | Column          | Data Description                      |
 | --------------- | ------------------------------------- |
@@ -60,7 +60,7 @@
 | `Latitude`      | Latitude of the location              |
 | `Longitude`     | Longitude of the location             |
 
-4. Dim_JobRole.csv
+**4. Dim_JobRole.csv**
 
 | Column             | Data Description                 |
 | ------------------ | -------------------------------- |
@@ -73,7 +73,7 @@
 | `Target_Bonus_Pct` | Target bonus percentage          |
 | `Career_Track`     | Career path or track of the role |
 
-5. Dim_Education.csv
+**5. Dim_Education.csv**
 
 | Column               | Data Description                                      |
 | -------------------- | ----------------------------------------------------- |
@@ -83,14 +83,14 @@
 | `Typical_Role_Level` | Typical job level associated with the education level |
 
 
-6. Dim_Competency.csv
+**6. Dim_Competency.csv**
 
 | Column            | Data Description            |
 | ----------------- | --------------------------- |
 | `Competency_ID`   | Unique ID of the competency |
 | `Competency_Name` | Name of the competency      |
 
-7. Dim_Date.csv
+**7. Dim_Date.csv**
 
 | Column           | Data Description                        |
 | ---------------- | --------------------------------------- |
@@ -113,7 +113,7 @@
 | `Month_Year`     | Month and year combination              |
 | `Year_Month`     | Year and month combination              |
 
-8. Bridge_DeptLocation.csv
+**8. Bridge_DeptLocation.csv**
 
 | Column          | Data Description                                                          |
 | --------------- | ------------------------------------------------------------------------- |
@@ -121,7 +121,7 @@
 | `Location_ID`   | ID of the location                                                        |
 | `Is_Primary`    | Indicates whether the location is the primary location for the department |
 
-9. Bridge_JobRoleCompetency.csv
+**9. Bridge_JobRoleCompetency.csv**
 
 | Column          | Data Description                                     |
 | --------------- | ---------------------------------------------------- |
@@ -129,7 +129,7 @@
 | `Competency_ID` | ID of the competency                                 |
 | `Weight`        | Importance/weight of the competency for the job role |
 
-Create Relationships Between Tables
+**Create Relationships Between Tables**
 
 
 | From Table               | Column              | To Table                 | Column        |
@@ -174,16 +174,15 @@ flowchart TD
     SD3 --> D5
 ```
 
-Define Cardinality
+# Define Cardinality
 
-Cardinality tells us how many records from one table can be related to records in another table.
+Cardinality tells us how many records from one table can be related to records in another table.<br>
 
 In Power BI, the main cardinality options are:
-
-One-to-many (1:*)
-Many-to-one (*:1)
-One-to-one (1:1)
-Many-to-many (:)
+One-to-many (1:*)<br>
+Many-to-one (*:1)<br>
+One-to-one (1:1)<br>
+Many-to-many (:)<br>
 
 | Relationship                              | Cardinality |
 | ----------------------------------------- | ----------- |
@@ -198,29 +197,27 @@ Many-to-many (:)
 | Dim_Location → Bridge_DeptLocation        | 1 : *       |
 
 
-Configure Cross-Filter Direction
+# Configure Cross-Filter Direction
 
-Cross-filter direction tells Power BI: In which direction should filtering travel between the related tables?
+Cross-filter direction tells Power BI: In which direction should filtering travel between the related tables?<br>
 
-There are two main options:
+There are two main options:<br>
+Single<br>
+Both<br>
 
-Single
-Both
 
+# 4) Manage Relationships in Model View
 
-4) Manage Relationships in Model View
+In Power BI:<br>
+Model View → Manage relationships<br>
 
-In Power BI:
-
-Model View → Manage relationships
-
-Here we can:
-Create relationships
-Edit relationships
-Delete relationships
-Change cardinality
-Change cross-filter direction
-Activate/deactivate relationships
+Here we can:<br>
+Create relationships<br>
+Edit relationships<br>
+Delete relationships<br>
+Change cardinality<br>
+Change cross-filter direction<br>
+Activate/deactivate relationships<br>
 
 
 
