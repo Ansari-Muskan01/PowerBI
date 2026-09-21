@@ -31,3 +31,115 @@
 | `Performance_Category`       | Performance category                                                    |
 | `Salary_Per_Year_Experience` | Salary compared with years of experience                                |
 | `Comp_Ratio`                 | Employee salary compared with the expected salary range                 |
+
+
+2. Dim_Department.csv
+
+| Column               | Data Description                                     |
+| -------------------- | ---------------------------------------------------- |
+| `Department_ID`      | Unique ID of the department                          |
+| `Department_Code`    | Code assigned to the department                      |
+| `Department_Name`    | Name of the department                               |
+| `Department_Head`    | Head of the department                               |
+| `Budget_Allocation`  | Budget allocated to the department                   |
+| `Cost_Center`        | Cost center assigned to the department               |
+| `Establishment_Year` | Year in which the department was established         |
+| `Is_Active`          | Indicates whether the department is currently active |
+
+3. Dim_Location.csv
+
+| Column          | Data Description                      |
+| --------------- | ------------------------------------- |
+| `Location_ID`   | Unique ID of the location             |
+| `Location_Name` | Name of the location                  |
+| `Region`        | Region where the location is situated |
+| `Zone`          | Zone of the location                  |
+| `Country`       | Country of the location               |
+| `City_Type`     | Type/category of the city             |
+| `Office_Type`   | Type of company office                |
+| `Latitude`      | Latitude of the location              |
+| `Longitude`     | Longitude of the location             |
+
+4. Dim_JobRole.csv
+
+| Column             | Data Description                 |
+| ------------------ | -------------------------------- |
+| `JobRole_ID`       | Unique ID of the job role        |
+| `JobRole_Name`     | Name of the job role             |
+| `Job_Family`       | Job family/category              |
+| `Job_Level`        | Level of the job role            |
+| `Min_Salary`       | Minimum salary for the role      |
+| `Max_Salary`       | Maximum salary for the role      |
+| `Target_Bonus_Pct` | Target bonus percentage          |
+| `Career_Track`     | Career path or track of the role |
+
+5. Dim_Education.csv
+
+| Column               | Data Description                                      |
+| -------------------- | ----------------------------------------------------- |
+| `Education_ID`       | Unique ID of the education level                      |
+| `Education_Level`    | Education level                                       |
+| `Years_of_Study`     | Typical number of years of study                      |
+| `Typical_Role_Level` | Typical job level associated with the education level |
+
+
+6. Dim_Competency.csv
+
+| Column            | Data Description            |
+| ----------------- | --------------------------- |
+| `Competency_ID`   | Unique ID of the competency |
+| `Competency_Name` | Name of the competency      |
+
+7. Dim_Date.csv
+
+| Column           | Data Description                        |
+| ---------------- | --------------------------------------- |
+| `Date_ID`        | Unique ID for the date                  |
+| `Date`           | Actual date                             |
+| `Year`           | Year of the date                        |
+| `Quarter`        | Quarter number                          |
+| `Quarter_Name`   | Quarter name                            |
+| `Month`          | Month number                            |
+| `Month_Name`     | Full month name                         |
+| `Month_Short`    | Short month name                        |
+| `Day`            | Day number                              |
+| `Day_of_Week`    | Day number within the week              |
+| `Day_Name`       | Name of the day                         |
+| `Week_of_Year`   | Week number of the year                 |
+| `Is_Weekend`     | Indicates whether the date is a weekend |
+| `Is_Holiday`     | Indicates whether the date is a holiday |
+| `Fiscal_Year`    | Fiscal year                             |
+| `Fiscal_Quarter` | Fiscal quarter                          |
+| `Month_Year`     | Month and year combination              |
+| `Year_Month`     | Year and month combination              |
+
+8. Bridge_DeptLocation.csv
+
+| Column          | Data Description                                                          |
+| --------------- | ------------------------------------------------------------------------- |
+| `Department_ID` | ID of the department                                                      |
+| `Location_ID`   | ID of the location                                                        |
+| `Is_Primary`    | Indicates whether the location is the primary location for the department |
+
+9. Bridge_JobRoleCompetency.csv
+
+| Column          | Data Description                                     |
+| --------------- | ---------------------------------------------------- |
+| `JobRole_ID`    | ID of the job role                                   |
+| `Competency_ID` | ID of the competency                                 |
+| `Weight`        | Importance/weight of the competency for the job role |
+
+
+| File Name                      | Table Type      | Main Purpose                        |
+| ------------------------------ | --------------- | ----------------------------------- |
+| `HR_Fact.csv`                  | Fact Table      | Employee/business records           |
+| `Dim_Department.csv`           | Dimension Table | Department information              |
+| `Dim_Location.csv`             | Dimension Table | Location information                |
+| `Dim_JobRole.csv`              | Dimension Table | Job role information                |
+| `Dim_Education.csv`            | Dimension Table | Education information               |
+| `Dim_Competency.csv`           | Dimension Table | Competency information              |
+| `Dim_Date.csv`                 | Dimension Table | Date/time information               |
+| `Bridge_DeptLocation.csv`      | Bridge Table    | Connects departments and locations  |
+| `Bridge_JobRoleCompetency.csv` | Bridge Table    | Connects job roles and competencies |
+
+
