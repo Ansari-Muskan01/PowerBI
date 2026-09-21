@@ -12,6 +12,21 @@ In Star Schema, one Fact Table is directly connected to multiple Dimension Table
 Fact Table → Stores transactions and measurable values.<br>
 Dimension Tables → Store descriptive information used to analyze the transactions.<br>
 
+
+                    ┌─────────────────────┐
+                    │ Dimension Table     │
+                    └──────────┬──────────┘
+                               │
+                               │
+┌─────────────────────┐   ┌────▼────────────┐   ┌─────────────────────┐
+│ Dimension Table     │───│   Fact Table    │───│ Dimension Table     │
+└─────────────────────┘   └────┬────────────┘   └─────────────────────┘
+                               │
+                               │
+                    ┌──────────▼──────────┐
+                    │ Dimension Table     │
+                    └─────────────────────┘
+
 # Snowflake Schema
 
 In Snowflake Schema, Dimension Tables are further divided into smaller related tables.
@@ -19,6 +34,26 @@ In Snowflake Schema, Dimension Tables are further divided into smaller related t
 Fact Table → Stores transactions and measurable values.<br>
 Dimension Tables → Store descriptive information..<br>
 Related Dimension Tables → Store additional detailed information about the dimensions.
+
+                    ┌─────────────────────┐
+                    │ Dimension Table     │
+                    └──────────┬──────────┘
+                               │
+                               │
+┌─────────────────────┐   ┌────▼────────────┐
+│ Dimension Table     │───│   Fact Table    │
+└─────────────────────┘   └────┬────────────┘
+                               │
+                               │
+                    ┌──────────▼──────────┐
+                    │ Dimension Table     │
+                    └──────────┬──────────┘
+                               │
+                               │
+                    ┌──────────▼──────────┐
+                    │ Related Dimension   │
+                    │       Table         │
+                    └─────────────────────┘
 
 # Types of Data
 **1. Qualitative Data** : Qualitative Data is data that describes a category or characteristic.<br>
