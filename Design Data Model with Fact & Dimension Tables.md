@@ -1,4 +1,4 @@
-# Data Modeling
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/817cf7ef-df9b-4f0d-8445-576bd9bac22e" /># Data Modeling
 
 Data Modeling is the process of organizing data into multiple related tables and defining relationships between them.
 
@@ -67,31 +67,27 @@ A company wants to analyze its sales data and understand:<br>
 
 # Data Description 
 
-This dataset contains information about customers, products, dates, regions, and sales transactions.
+This dataset contains information about customers, products, dates, regions, and sales transactions.<br>
 
-The data is divided into Dimension Tables and a Fact Table to make the data easier to organize and analyze.
+The data is divided into Dimension Tables and a Fact Table to make the data easier to organize and analyze.<br>
 
-Dimension Tables
-Customer Table → Contains customer information such as Customer Name, Segment, Gender, and Loyalty Status.
-Date Table → Contains date-related information such as Year, Month, Quarter, and Week Number.
-Product Table → Contains product information such as Category, Sub-Category, Brand, Product Name, and Unit Price.
-Region Table → Contains location information such as Region, City, State, Country, and Zone.
-Fact Table
-Sales Table → Contains sales transaction information such as Sales, Quantity, Profit, Discount, Cost Price, Selling Price, and Shipping Cost.
+**Dimension Tables**
+**Customer Table** → Contains customer information such as Customer Name, Segment, Gender, and Loyalty Status.<br>
+**Date Table** → Contains date-related information such as Year, Month, Quarter, and Week Number.<br>
+**Product Table** → Contains product information such as Category, Sub-Category, Brand, Product Name, and Unit Price.<br>
+**Region Table** → Contains location information such as Region, City, State, Country, and Zone.<br>
+
+**Fact Table**
+Sales Table → Contains sales transaction information such as Sales, Quantity, Profit, Discount, Cost Price, Selling Price, and Shipping Cost.<br>
 
 
-The tables are connected using Primary Keys and Foreign Keys.
+The tables are connected using Primary Keys and Foreign Keys.<br>
 
 For example:
-
-Customer_ID → connects Customer and Sales
-Product_ID  → connects Product and Sales
-Date_ID     → connects Date and Sales
-Region_ID   → connects Region and Sales
-
-This data model helps us analyze sales from different perspectives such as customer, product, time, and region.
-
-
+Customer_ID → connects Customer and Sales<br>
+Product_ID  → connects Product and Sales<br>
+Date_ID     → connects Date and Sales<br>
+Region_ID   → connects Region and Sales<br>
 
 ## 1. Customer Table — Dimension Table
 
