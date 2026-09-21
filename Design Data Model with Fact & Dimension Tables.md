@@ -1,6 +1,56 @@
-# Identify Fact and Dimension Tables
+Sales Performance Analysis
 
-Before understanding Star Schema and Snowflake Schema, we first identify the Fact Table and Dimension Tables.
+A company wants to analyze its sales data and understand:
+
+How much sales are generated?
+Which products are performing well?
+Which customers are purchasing more?
+Which regions generate more sales?
+How sales change over time?
+How much profit is generated?
+What is the impact of discount?
+How many quantities are sold?
+
+
+# Business Questions
+| Area     | Question                                           |
+| -------- | -------------------------------------------------- |
+| Sales    | What is the total sales?                           |
+| Profit   | What is the total profit?                          |
+| Product  | Which products generate more sales?                |
+| Customer | Which customer segments generate more sales?       |
+| Region   | Which regions perform better?                      |
+| Time     | How does sales change month by month/year by year? |
+| Quantity | Which products have higher quantity sold?          |
+| Discount | How does discount affect sales and profit?         |
+
+
+Section 1 — Overall Performance
+
+Total Sales
+Total Profit
+Total Quantity
+Total Orders
+Average Discount
+
+Section 2 — Sales Analysis
+
+Sales by Year
+Sales by Category
+
+
+Section 3 — Product & Customer Analysis
+Top Products by Sales
+
+Section 4 — Regional Analysis
+
+Sales by Region
+
+
+# Data Modeling
+
+Data Modeling is the process of creating relationships between different tables so that we can analyze the data correctly.
+
 
 ## 1. Customer Table — Dimension Table
 
@@ -109,15 +159,34 @@ Orders : It contains transaction information and measurable business values such
 - **Orders → What happened?**
 
 ---
+Instead of keeping all information in one large table, we keep related information in separate tables and connect them using relationships.
+
+Here:
+
+Sales = Fact Table
+Customer = Dimension Table
+Product = Dimension Table
+Date = Dimension Table
+Region = Dimension Table
 
 # Star Schema
 
 A **Star Schema** has one central Fact Table and multiple Dimension Tables directly connected to it.
 
+
+
                  Customer
                     |
                     |
-Product -------- Orders -------- Date
+Product -------- Sales -------- Date
                     |
                     |
                   Region
+
+
+
+
+This is called a Star Schema because the structure looks like a star.
+
+
+
