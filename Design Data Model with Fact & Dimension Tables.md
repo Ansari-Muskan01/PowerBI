@@ -79,7 +79,7 @@ The data is divided into Dimension Tables and a Fact Table to make the data easi
 **Region Table** → Contains location information such as Region, City, State, Country, and Zone.<br>
 
 **Fact Table**<br>
-Sales Table → Contains sales transaction information such as Sales, Quantity, Profit, Discount, Cost Price, Selling Price, and Shipping Cost.<br>
+**Sales Table** → Contains sales transaction information such as Sales, Quantity, Profit, Discount, Cost Price, Selling Price, and Shipping Cost.<br>
 
 
 The tables are connected using Primary Keys and Foreign Keys.<br>
@@ -89,6 +89,26 @@ Customer_ID → connects Customer and Sales<br>
 Product_ID  → connects Product and Sales<br>
 Date_ID     → connects Date and Sales<br>
 Region_ID   → connects Region and Sales<br>
+
+
+# Configure Cross-Filter Direction
+
+Cross-filter direction determines how filtering flows between related tables.
+
+**Single :** The filter flows in one direction.
+
+Customer
+   ↓
+Sales
+
+**Both : ** The filter can flow in both directions.
+
+Customer
+   ↕
+Sales
+
+
+
 
 ## 1. Customer Table — Dimension Table
 
