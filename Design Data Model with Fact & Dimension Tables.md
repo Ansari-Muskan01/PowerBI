@@ -91,25 +91,6 @@ Date_ID     → connects Date and Sales<br>
 Region_ID   → connects Region and Sales<br>
 
 
-# Configure Cross-Filter Direction
-
-Cross-filter direction determines how filtering flows between related tables.
-
-**Single :** The filter flows in one direction.<br>
-
-Customer<br>
-   ↓<br>
-Sales<br>
-
-**Both :** The filter can flow in both directions.<br>
-
-Customer<br>
-   ↕<br>
-Sales<br>
-
-
-
-
 ## 1. Customer Table — Dimension Table
 
 | Column | Type |
