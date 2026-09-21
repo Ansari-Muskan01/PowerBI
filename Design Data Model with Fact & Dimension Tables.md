@@ -1,4 +1,4 @@
-Sales Performance Analysis
+# Sales Performance Analysis
 
 A company wants to analyze its sales data and understand:
 
