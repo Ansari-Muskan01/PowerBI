@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/817cf7ef-df9b-4f0d-8445-576bd9bac22e" /># Data Modeling
+# Data Modeling 
 
 Data Modeling is the process of organizing data into multiple related tables and defining relationships between them.
 
