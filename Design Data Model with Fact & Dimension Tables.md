@@ -1,9 +1,3 @@
-# Identify fact and dimension tables
-
-Fact and Dimension Tables
-
-Before understanding Star Schema and Snowflake Schema, we first identify Fact Tables and Dimension Tables.
-
 # Identify Fact and Dimension Tables
 
 Before understanding Star Schema and Snowflake Schema, we first identify the Fact Table and Dimension Tables.
@@ -20,7 +14,7 @@ Before understanding Star Schema and Snowflake Schema, we first identify the Fac
 | Loyalty_Status | Qualitative Data |
 | Join_Date | Qualitative Data |
 
-**Customer = Dimension Table** because it contains information about customers.
+**Customer =  It contains information about customers.
 
 ---
 
@@ -36,7 +30,7 @@ Before understanding Star Schema and Snowflake Schema, we first identify the Fac
 | Week_Number | Qualitative Data |
 | Is_Weekend | Qualitative Data |
 
-**Date = Dimension Table** because it contains information about dates.
+**Date = It contains information about dates.
 
 ---
 
@@ -52,7 +46,7 @@ Before understanding Star Schema and Snowflake Schema, we first identify the Fac
 | Unit_Price | Quantitative Data |
 | Launch_Year | Qualitative Data |
 
-**Product = Dimension Table** because it contains information about products.
+**Product = It contains information about products.
 
 ---
 
@@ -68,7 +62,7 @@ Before understanding Star Schema and Snowflake Schema, we first identify the Fac
 | Zone | Qualitative Data |
 | Pin_Code | Qualitative Data |
 
-**Region = Dimension Table** because it contains information about locations.
+**Region = It contains information about locations.
 
 ---
 
@@ -92,7 +86,7 @@ Before understanding Star Schema and Snowflake Schema, we first identify the Fac
 | Delivery_Days | Quantitative Data |
 | Financial_Year | Qualitative Data |
 
-**Orders = Fact Table** because it contains transaction information and measurable business values such as Sales, Quantity and Profit.
+**Orders = It contains transaction information and measurable business values such as Sales, Quantity and Profit.
 
 ---
 
@@ -120,7 +114,6 @@ Before understanding Star Schema and Snowflake Schema, we first identify the Fac
 
 A **Star Schema** has one central Fact Table and multiple Dimension Tables directly connected to it.
 
-```text
                  Customer
                     |
                     |
