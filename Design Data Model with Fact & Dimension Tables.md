@@ -24,27 +24,6 @@
 | Discount | How does discount affect sales and profit?         |
 
 
-Section 1 — Overall Performance
-
-Total Sales
-Total Profit
-Total Quantity
-Total Orders
-Average Discount
-
-Section 2 — Sales Analysis
-
-Sales by Year
-Sales by Category
-
-
-Section 3 — Product & Customer Analysis
-Top Products by Sales
-
-Section 4 — Regional Analysis
-
-Sales by Region
-
 
 # Data Modeling
 
@@ -187,5 +166,26 @@ Product -------- Sales -------- Date
 
 This is called a Star Schema because the structure looks like a star.
 
+
+Section 1 — Overall Performance
+
+Total Sales
+Total Profit
+Total Quantity
+Total Orders
+Average Discount
+
+Section 2 — Sales Analysis
+
+Sales by Year
+Sales by Category
+
+
+Section 3 — Product & Customer Analysis
+Top Products by Sales
+
+Section 4 — Regional Analysis
+
+Sales by Region
 
 
