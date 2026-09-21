@@ -9,8 +9,8 @@ In Power BI, data modeling involves identifying Fact Tables and Dimension Tables
 
 In Star Schema, one Fact Table is directly connected to multiple Dimension Tables.
 
-Fact Table → Stores transactions and measurable values.<br>
-Dimension Tables → Store descriptive information used to analyze the transactions.<br>
+**Fact Table** → Stores transactions and measurable values.<br>
+**Dimension Tables** → Store descriptive information used to analyze the transactions.<br>
 
 
 ```mermaid
@@ -32,9 +32,9 @@ flowchart TD
 
 In Snowflake Schema, Dimension Tables are further divided into smaller related tables.
 
-Fact Table → Stores transactions and measurable values.<br>
-Dimension Tables → Store descriptive information..<br>
-Related Dimension Tables → Store additional detailed information about the dimensions.
+**Fact Table** → Stores transactions and measurable values.<br>
+**Dimension Table**s → Store descriptive information..<br>
+**Related Dimension Tables** → Store additional detailed information about the dimensions.
 
 ```mermaid
 flowchart TD
