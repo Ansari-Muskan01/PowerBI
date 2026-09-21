@@ -14,7 +14,7 @@ Before understanding Star Schema and Snowflake Schema, we first identify the Fac
 | Loyalty_Status | Qualitative Data |
 | Join_Date | Qualitative Data |
 
-**Customer =  It contains information about customers.
+Customer :  It contains information about customers.
 
 ---
 
@@ -30,7 +30,7 @@ Before understanding Star Schema and Snowflake Schema, we first identify the Fac
 | Week_Number | Qualitative Data |
 | Is_Weekend | Qualitative Data |
 
-**Date = It contains information about dates.
+Date : It contains information about dates.
 
 ---
 
@@ -46,7 +46,7 @@ Before understanding Star Schema and Snowflake Schema, we first identify the Fac
 | Unit_Price | Quantitative Data |
 | Launch_Year | Qualitative Data |
 
-**Product = It contains information about products.
+Product : It contains information about products.
 
 ---
 
@@ -62,7 +62,7 @@ Before understanding Star Schema and Snowflake Schema, we first identify the Fac
 | Zone | Qualitative Data |
 | Pin_Code | Qualitative Data |
 
-**Region = It contains information about locations.
+Region : It contains information about locations.
 
 ---
 
@@ -86,7 +86,7 @@ Before understanding Star Schema and Snowflake Schema, we first identify the Fac
 | Delivery_Days | Quantitative Data |
 | Financial_Year | Qualitative Data |
 
-**Orders = It contains transaction information and measurable business values such as Sales, Quantity and Profit.
+Orders : It contains transaction information and measurable business values such as Sales, Quantity and Profit.
 
 ---
 
