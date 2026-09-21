@@ -1,117 +1,130 @@
-Identify fact and dimension tables
+# Identify fact and dimension tables
 
 Fact and Dimension Tables
 
 Before understanding Star Schema and Snowflake Schema, we first identify Fact Tables and Dimension Tables.
 
-Customer_ID →Primary Key
+# Identify Fact and Dimension Tables
 
-Customer Name —>Qualitative data
+Before understanding Star Schema and Snowflake Schema, we first identify the Fact Table and Dimension Tables.
 
-Segment → Qualitative data
+## 1. Customer Table — Dimension Table
 
-Customer Age group—> Qualitative data
+| Column | Type |
+|---|---|
+| Customer_ID | Primary Key |
+| Customer_Name | Qualitative Data |
+| Segment | Qualitative Data |
+| Customer_Age_Group | Qualitative Data |
+| Gender | Qualitative Data |
+| Loyalty_Status | Qualitative Data |
+| Join_Date | Qualitative Data |
 
-Gender —> Qualitative data
+**Customer = Dimension Table** because it contains information about customers.
 
-Loyalty Status→ Qualitative data
+---
 
-Join Date → Qualitative data  
+## 2. Date Table — Dimension Table
 
+| Column | Type |
+|---|---|
+| Date_ID | Primary Key |
+| Year | Qualitative Data |
+| Month | Qualitative Data |
+| Quarter | Qualitative Data |
+| Day_Name | Qualitative Data |
+| Week_Number | Qualitative Data |
+| Is_Weekend | Qualitative Data |
 
-Table Date contains:
+**Date = Dimension Table** because it contains information about dates.
 
- 
+---
 
-Date_ID →Primary Key
+## 3. Product Table — Dimension Table
 
-Year —>Qualitative data
+| Column | Type |
+|---|---|
+| Product_ID | Primary Key |
+| Category | Qualitative Data |
+| Sub_Category | Qualitative Data |
+| Brand | Qualitative Data |
+| Product_Name | Qualitative Data |
+| Unit_Price | Quantitative Data |
+| Launch_Year | Qualitative Data |
 
-Month → Qualitative data
+**Product = Dimension Table** because it contains information about products.
 
-Quarter—> Qualitative data
+---
 
-Day_name —> Qualitative data
+## 4. Region Table — Dimension Table
 
-Week_number→ Qualitative data
+| Column | Type |
+|---|---|
+| Region_ID | Primary Key |
+| Region | Qualitative Data |
+| City | Qualitative Data |
+| State | Qualitative Data |
+| Country | Qualitative Data |
+| Zone | Qualitative Data |
+| Pin_Code | Qualitative Data |
 
-is_weekend → Qualitative data
+**Region = Dimension Table** because it contains information about locations.
 
+---
 
+## 5. Orders Table — Fact Table
 
-Table Product contains:
+| Column | Type |
+|---|---|
+| Order_ID | Primary Key |
+| Customer_ID | Foreign Key |
+| Product_ID | Foreign Key |
+| Region_ID | Foreign Key |
+| Date_ID | Foreign Key |
+| Sales | Quantitative Data |
+| Quantity | Quantitative Data |
+| Profit | Quantitative Data |
+| Discount | Quantitative Data |
+| Cost_Price | Quantitative Data |
+| Selling_Price | Quantitative Data |
+| Shipping_Cost | Quantitative Data |
+| Order_Priority | Qualitative Data |
+| Delivery_Days | Quantitative Data |
+| Financial_Year | Qualitative Data |
 
- 
+**Orders = Fact Table** because it contains transaction information and measurable business values such as Sales, Quantity and Profit.
 
-Product_ID →Primary Key
+---
 
-Category —>Qualitative data
+# Summary
 
-Sub-Category → Qualitative data
+| Table | Type | Contains Information About |
+|---|---|---|
+| Customer | Dimension | Customers |
+| Date | Dimension | Dates |
+| Product | Dimension | Products |
+| Region | Dimension | Locations |
+| Orders | Fact | Transactions and Measures |
 
-Brand—> Qualitative data
+### Easy Way to Remember
 
-Day_name —> Qualitative data
+- **Customer → Who?**
+- **Product → What?**
+- **Date → When?**
+- **Region → Where?**
+- **Orders → What happened?**
 
-Product_Name→ Qualitative data
+---
 
-Unit_Price → Qualitative data
+# Star Schema
 
-Launch_year—>Qualitative data
+A **Star Schema** has one central Fact Table and multiple Dimension Tables directly connected to it.
 
-
-
-Table Region contains:
-
- 
-
-Region_ID →Primary Key
-
-Region —>Qualitative data
-
-City → Qualitative data
-
-State—> Qualitative data
-
-Country —> Qualitative data
-
-Zone→ Qualitative data
-
-Pin_Code → Qualitative data
-
-
-
- 
-
-Order_ID →Primary Key
-
-Customer_ID—->Foreign key
-
-Product_ID—>Foreign key
-
-Region_ID—> Foreign key
-
-Date_ID —> Foreign key
-
-Sales→Quantitative data
-
-Quantity →Quantitative data
-
-Profit—> Quantitative data
-
-Discount—> Quantitative data
-
-Cost_price—>Quantitative data
-
-Selling_price—>Quantitative data
-
-Shipping_cost–>Quantitative data
-
-Order_priority —> Qualitative data
-
-Delivery_Days—> Quantitative data
-
-Financial_year—>Qualitative data
-
-
-Understand Star schema and Snowflake schema
+```text
+                 Customer
+                    |
+                    |
+Product -------- Orders -------- Date
+                    |
+                    |
+                  Region
