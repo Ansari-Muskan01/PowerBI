@@ -36,7 +36,7 @@ Fact Table → Stores transactions and measurable values.<br>
 Dimension Tables → Store descriptive information..<br>
 Related Dimension Tables → Store additional detailed information about the dimensions.
 
-                   ```mermaid
+```mermaid
 flowchart TD
     F[Fact Table]
 
@@ -52,6 +52,8 @@ flowchart TD
     F --> D4
     D4 --> D5
 ```
+
+
 
 # Types of Data
 **1. Qualitative Data** : Qualitative Data is data that describes a category or characteristic.<br>
