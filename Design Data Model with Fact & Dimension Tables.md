@@ -10,21 +10,6 @@ A company wants to analyze its sales data and understand:<br>
 7- What is the impact of discount?<br>
 8- How many quantities are sold?<br>
 
-
-# Business Questions
-| Area     | Question                                           |
-| -------- | -------------------------------------------------- |
-| Sales    | What is the total sales?                           |
-| Profit   | What is the total profit?                          |
-| Product  | Which products generate more sales?                |
-| Customer | Which customer segments generate more sales?       |
-| Region   | Which regions perform better?                      |
-| Time     | How does sales change month by month/year by year? |
-| Quantity | Which products have higher quantity sold?          |
-| Discount | How does discount affect sales and profit?         |
-
-
-
 # Data Modeling
 
 Data Modeling is the process of creating relationships between different tables so that we can analyze the data correctly.
