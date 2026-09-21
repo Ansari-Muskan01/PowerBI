@@ -1,15 +1,3 @@
-# Sales Performance Analysis
-
-A company wants to analyze its sales data and understand:<br>
-1- How much sales are generated?<br>
-2- Which products are performing well?<br>
-3- Which customers are purchasing more?<br>
-4- Which regions generate more sales?<br>
-5- How sales change over time?<br>
-6- How much profit is generated?<br>
-7- What is the impact of discount?<br>
-8- How many quantities are sold?<br>
-
 # Data Modeling
 
 Data Modeling is the process of organizing data into multiple related tables and defining relationships between them.
@@ -65,6 +53,44 @@ Easy way to remember: Quantitative Data = Number or Measurement<br>
 | Loyalty Status                         | Profit                             |
 | Segment                                | Price                              |
 
+# Sales Performance Analysis
+
+A company wants to analyze its sales data and understand:<br>
+1- How much sales are generated?<br>
+2- Which products are performing well?<br>
+3- Which customers are purchasing more?<br>
+4- Which regions generate more sales?<br>
+5- How sales change over time?<br>
+6- How much profit is generated?<br>
+7- What is the impact of discount?<br>
+8- How many quantities are sold?<br>
+
+# Data Description 
+
+This dataset contains information about customers, products, dates, regions, and sales transactions.
+
+The data is divided into Dimension Tables and a Fact Table to make the data easier to organize and analyze.
+
+Dimension Tables
+Customer Table → Contains customer information such as Customer Name, Segment, Gender, and Loyalty Status.
+Date Table → Contains date-related information such as Year, Month, Quarter, and Week Number.
+Product Table → Contains product information such as Category, Sub-Category, Brand, Product Name, and Unit Price.
+Region Table → Contains location information such as Region, City, State, Country, and Zone.
+Fact Table
+Sales Table → Contains sales transaction information such as Sales, Quantity, Profit, Discount, Cost Price, Selling Price, and Shipping Cost.
+
+
+The tables are connected using Primary Keys and Foreign Keys.
+
+For example:
+
+Customer_ID → connects Customer and Sales
+Product_ID  → connects Product and Sales
+Date_ID     → connects Date and Sales
+Region_ID   → connects Region and Sales
+
+This data model helps us analyze sales from different perspectives such as customer, product, time, and region.
+
 
 
 ## 1. Customer Table — Dimension Table
@@ -79,7 +105,14 @@ Easy way to remember: Quantitative Data = Number or Measurement<br>
 | Loyalty_Status | Qualitative Data |
 | Join_Date | Qualitative Data |
 
-Customer :  It contains information about customers.
+Customer_ID : 	Unique ID of the customer<br>
+Customer_Name	: Name of the customer<br>
+Segment : 	Customer group<br>
+Customer_Age_Group : 	Age group of the customer<br>
+Gender : 	Gender of the customer<br>
+Loyalty_Status	: Loyalty status of the customer<br>
+Join_Date : 	Date when the customer joined<br>
+
 
 ---
 
@@ -95,7 +128,13 @@ Customer :  It contains information about customers.
 | Week_Number | Qualitative Data |
 | Is_Weekend | Qualitative Data |
 
-Date : It contains information about dates.
+Date_ID	: Unique ID for each date<br>
+Year	: Year of the date<br>
+Month: 	Month of the date<br>
+Quarter	: Quarter of the year<br>
+Day_Name	: Name of the day<br>
+Week_Number: 	Week number of the year<br>
+Is_Weekend: 	Shows whether the date is a weekend<br>
 
 ---
 
@@ -111,7 +150,14 @@ Date : It contains information about dates.
 | Unit_Price | Quantitative Data |
 | Launch_Year | Qualitative Data |
 
-Product : It contains information about products.
+
+Product_ID :	Unique ID of the product
+Category	: Main category of the product
+Sub_Category	: Sub-category of the product
+Brand	: Brand name of the product
+Product_Name: 	Name of the product
+Unit_Price: 	Price of one unit of the product
+Launch_Year : 	Year when the product was launched
 
 ---
 
@@ -127,7 +173,15 @@ Product : It contains information about products.
 | Zone | Qualitative Data |
 | Pin_Code | Qualitative Data |
 
-Region : It contains information about locations.
+Region_ID : 	Unique ID of the region
+Region : 	Name of the region
+City : 	Name of the city
+State : 	Name of the state
+Country : 	Name of the country
+Zone : Zone in which the location belongs
+Pin_Code : Postal code of the location
+
+
 
 ---
 
