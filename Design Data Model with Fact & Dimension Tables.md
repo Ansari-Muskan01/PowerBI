@@ -149,13 +149,13 @@ Is_Weekend: 	Shows whether the date is a weekend<br>
 | Launch_Year | Qualitative Data |
 
 
-Product_ID :	Unique ID of the product
-Category	: Main category of the product
-Sub_Category	: Sub-category of the product
-Brand	: Brand name of the product
-Product_Name: 	Name of the product
-Unit_Price: 	Price of one unit of the product
-Launch_Year : 	Year when the product was launched
+Product_ID :	Unique ID of the product<br>
+Category	: Main category of the product<br>
+Sub_Category	: Sub-category of the product<br>
+Brand	: Brand name of the product<br>
+Product_Name: 	Name of the product<br>
+Unit_Price: 	Price of one unit of the product<br>
+Launch_Year : 	Year when the product was launched<br>
 
 ---
 
@@ -171,15 +171,13 @@ Launch_Year : 	Year when the product was launched
 | Zone | Qualitative Data |
 | Pin_Code | Qualitative Data |
 
-Region_ID : 	Unique ID of the region
-Region : 	Name of the region
-City : 	Name of the city
-State : 	Name of the state
-Country : 	Name of the country
-Zone : Zone in which the location belongs
-Pin_Code : Postal code of the location
-
-
+Region_ID : 	Unique ID of the region<br>
+Region : 	Name of the region<br>
+City : 	Name of the city<br>
+State : 	Name of the state<br>
+Country : 	Name of the country<br>
+Zone : Zone in which the location belongs<br>
+Pin_Code : Postal code of the location<br>
 
 ---
 
@@ -203,7 +201,21 @@ Pin_Code : Postal code of the location
 | Delivery_Days | Quantitative Data |
 | Financial_Year | Qualitative Data |
 
-Orders : It contains transaction information and measurable business values such as Sales, Quantity and Profit.
+Order_ID: 	Unique ID of the order
+Customer_ID : 	ID of the customer who placed the order
+Product_ID : 	ID of the product purchased
+Region_ID	: ID of the region where the order was placed
+Date_ID	: ID of the date when the order was placed
+Sales : 	Total sales amount of the order
+Quantity: 	Number of products purchased
+Profit : 	Profit earned from the order
+Discount : 	Discount given on the order
+Cost_Price: 	Cost of the product
+Selling_Price	: Price at which the product was sold
+Shipping_Cost	: Cost of shipping the order
+Order_Priority: 	Priority level of the order
+Delivery_Days : 	Number of days taken to deliver the order
+Financial_Year	: Financial year of the order
 
 ---
 
