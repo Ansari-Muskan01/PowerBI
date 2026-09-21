@@ -130,6 +130,34 @@
 | `Weight`        | Importance/weight of the competency for the job role |
 
 
+```mermaid
+flowchart TD
+    F[HR_Fact]
+
+    D1[Dim_Department]
+    D2[Dim_Education]
+    D3[Dim_JobRole]
+    D4[Dim_Date]
+    D5[Dim_Location]
+
+    SD1[Bridge_JobRoleCompetency]
+    SD2[Dim_Competency]
+
+    SD3[Bridge_DeptLocation]
+
+    D1 --> F
+    D2 --> F
+    D3 --> F
+    D4 --> F
+    D5 --> F
+
+    D3 --> SD1
+    SD1 --> SD2
+
+    D1 --> SD3
+    SD3 --> D5
+```
+
 | File Name                      | Table Type      | Main Purpose                        |
 | ------------------------------ | --------------- | ----------------------------------- |
 | `HR_Fact.csv`                  | Fact Table      | Employee/business records           |
