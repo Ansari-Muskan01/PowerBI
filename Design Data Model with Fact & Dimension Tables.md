@@ -108,12 +108,14 @@ This dataset contains information about customers, products, dates, regions, and
 The data is divided into Dimension Tables and a Fact Table to make the data easier to organize and analyze.<br>
 
 **Dimension Tables**<br>
+
 **Customer Table** → Contains customer information such as Customer Name, Segment, Gender, and Loyalty Status.<br>
 **Date Table** → Contains date-related information such as Year, Month, Quarter, and Week Number.<br>
 **Product Table** → Contains product information such as Category, Sub-Category, Brand, Product Name, and Unit Price.<br>
 **Region Table** → Contains location information such as Region, City, State, Country, and Zone.<br>
 
 **Fact Table**<br>
+
 **Sales Table** → Contains sales transaction information such as Sales, Quantity, Profit, Discount, Cost Price, Selling Price, and Shipping Cost.<br>
 
 
