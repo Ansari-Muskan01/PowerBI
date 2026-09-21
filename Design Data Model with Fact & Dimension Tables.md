@@ -13,19 +13,19 @@ Fact Table → Stores transactions and measurable values.<br>
 Dimension Tables → Store descriptive information used to analyze the transactions.<br>
 
 
-                    ┌─────────────────────┐
-                    │ Dimension Table     │
-                    └──────────┬──────────┘
-                               │
-                               │
-┌─────────────────────┐   ┌────▼────────────┐   ┌─────────────────────┐
-│ Dimension Table     │───│   Fact Table    │───│ Dimension Table     │
-└─────────────────────┘   └────┬────────────┘   └─────────────────────┘
-                               │
-                               │
-                    ┌──────────▼──────────┐
-                    │ Dimension Table     │
-                    └─────────────────────┘
+                    +---------------------+
+                    |  Dimension Table    |
+                    +----------+----------+
+                               |
+                               |
++---------------------+   +----+----------------+   +---------------------+
+|  Dimension Table    |---|     Fact Table      |---|  Dimension Table    |
++---------------------+   +----+----------------+   +---------------------+
+                               |
+                               |
+                    +----------+----------+
+                    |  Dimension Table    |
+                    +---------------------+
 
 # Snowflake Schema
 
