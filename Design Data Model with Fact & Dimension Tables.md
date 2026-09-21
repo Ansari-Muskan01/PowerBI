@@ -28,9 +28,9 @@ Dimension Tables → Store information about customers, products, dates, regions
 
 In Snowflake Schema, Dimension Tables are further divided into smaller related tables.
 
-Fact Table → Stores transactions and measurable values.
-Dimension Tables → Store descriptive information.
-Related Tables → Store more detailed information about the dimensions.
+Fact Table → Stores transactions and measurable values.<br>
+Dimension Tables → Store descriptive information.<br>
+Related Tables → Store more detailed information about the dimensions.<br>
 
 ## 1. Customer Table — Dimension Table
 
