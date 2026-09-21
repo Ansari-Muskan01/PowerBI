@@ -32,6 +32,47 @@ Fact Table → Stores transactions and measurable values.<br>
 Dimension Tables → Store descriptive information.<br>
 Related Tables → Store more detailed information about the dimensions.<br>
 
+
+# Types of Data
+**1. Qualitative Data** : Qualitative Data is data that describes a category, characteristic, or type of something.
+
+It usually tells us what type, which category, or what kind.
+
+Examples:
+Gender → Male, Female
+Segment → Premium, Regular
+Category → Electronics, Clothing
+Region → West, East
+Loyalty_Status → Loyal, New
+
+Easy way to remember: Qualitative Data = Description or Category
+
+
+**2. Quantitative Data** : Quantitative Data is data that represents a number or a measurable value.
+
+It tells us how much, how many, or how long.
+
+Examples:
+
+Sales → ₹50,000
+Quantity → 10
+Profit → ₹5,000
+Unit_Price → ₹2,000
+Delivery_Days → 5
+
+Easy way to remember: Quantitative Data = Number or Measurement
+
+| Qualitative Data                       | Quantitative Data                  |
+| -------------------------------------- | ---------------------------------- |
+| Describes a category or characteristic | Represents a number or measurement |
+| Gender                                 | Age                                |
+| Category                               | Sales                              |
+| Region                                 | Quantity                           |
+| Loyalty Status                         | Profit                             |
+| Segment                                | Price                              |
+
+
+
 ## 1. Customer Table — Dimension Table
 
 | Column | Type |
