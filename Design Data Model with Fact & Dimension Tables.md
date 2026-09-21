@@ -12,7 +12,7 @@ A company wants to analyze its sales data and understand:<br>
 
 # Data Modeling
 
-Data Modeling is the process of organizing data into multiple related tables and defining relationships between them to ensure that the data can be stored, accessed, and analyzed efficiently.
+Data Modeling is the process of organizing data into multiple related tables and defining relationships between them.
 
 In Power BI, data modeling involves identifying Fact Tables and Dimension Tables and creating relationships between them using common columns such as Primary Keys and Foreign Keys.
 
