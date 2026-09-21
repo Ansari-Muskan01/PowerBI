@@ -101,7 +101,7 @@ Customer<br>
    ↓<br>
 Sales<br>
 
-**Both : ** The filter can flow in both directions.<br>
+**Both :** The filter can flow in both directions.<br>
 
 Customer<br>
    ↕<br>
