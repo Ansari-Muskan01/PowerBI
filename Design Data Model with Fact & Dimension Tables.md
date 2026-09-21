@@ -12,8 +12,25 @@ A company wants to analyze its sales data and understand:<br>
 
 # Data Modeling
 
-Data Modeling is the process of creating relationships between different tables so that we can analyze the data correctly.
+Data Modeling is the process of organizing data into multiple related tables and defining relationships between them to ensure that the data can be stored, accessed, and analyzed efficiently.
 
+In Power BI, data modeling involves identifying Fact Tables and Dimension Tables and creating relationships between them using common columns such as Primary Keys and Foreign Keys.
+
+
+# Star Schema
+
+In Star Schema, one Fact Table is directly connected to multiple Dimension Tables.
+
+Fact Table → Stores transactions and measurable values.
+Dimension Tables → Store information about customers, products, dates, regions, etc.
+
+# Snowflake Schema
+
+In Snowflake Schema, Dimension Tables are further divided into smaller related tables.
+
+Fact Table → Stores transactions and measurable values.
+Dimension Tables → Store descriptive information.
+Related Tables → Store more detailed information about the dimensions.
 
 ## 1. Customer Table — Dimension Table
 
