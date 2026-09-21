@@ -1,14 +1,14 @@
 # Sales Performance Analysis
 
 - A company wants to analyze its sales data and understand:<br>
-How much sales are generated?<br>
-Which products are performing well?<br>
-Which customers are purchasing more?<br>
-Which regions generate more sales?<br>
-How sales change over time?<br>
-How much profit is generated?<br>
-What is the impact of discount?<br>
-How many quantities are sold?<br>
+1- How much sales are generated?<br>
+2- Which products are performing well?<br>
+3- Which customers are purchasing more?<br>
+4- Which regions generate more sales?<br>
+5- How sales change over time?<br>
+6- How much profit is generated?<br>
+7- What is the impact of discount?<br>
+8- How many quantities are sold?<br>
 
 
 # Business Questions
