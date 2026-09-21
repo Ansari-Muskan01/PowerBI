@@ -34,11 +34,9 @@ Related Tables → Store more detailed information about the dimensions.<br>
 
 
 # Types of Data
-**1. Qualitative Data** : Qualitative Data is data that describes a category, characteristic, or type of something.
+**1. Qualitative Data** : Qualitative Data is data that describes a category or characteristic.
 
-It usually tells us what type, which category, or what kind.<br>
-
-Examples:<br>
+**Examples:**<br>
 Gender → Male, Female<br>
 Segment → Premium, Regular<br>
 Category → Electronics, Clothing<br>
@@ -49,9 +47,7 @@ Easy way to remember: Qualitative Data = Description or Category<br>
 
 
 **2. Quantitative Data** : Quantitative Data is data that represents a number or a measurable value.
-
-It tells us how much, how many, or how long.<br>
-Examples:<br>
+**Examples:**<br>
 Sales → ₹50,000<br>
 Quantity → 10<br>
 Profit → ₹5,000<br>
