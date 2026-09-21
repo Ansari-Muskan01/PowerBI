@@ -43,17 +43,19 @@ flowchart TD
     D1[Dimension Table]
     D2[Dimension Table]
     D3[Dimension Table]
-    D4[Related Dimension Table]
-    D5[Related Dimension Table]
+    D4[Dimension Table]
+
+    SD1[Related Dimension Table]
+    SD2[Related Dimension Table]
 
     D1 --> F
     D2 --> F
     D3 --> F
-    F --> D4
-    D4 --> D5
+    D4 --> F
+
+    D3 --> SD1
+    SD1 --> SD2
 ```
-
-
 
 # Types of Data
 **1. Qualitative Data** : Qualitative Data is data that describes a category or characteristic.<br>
