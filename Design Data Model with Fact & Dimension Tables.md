@@ -66,7 +66,7 @@ Region : It contains information about locations.
 
 ---
 
-## 5. Orders Table — Fact Table
+## 5. Sales Table — Fact Table
 
 | Column | Type |
 |---|---|
