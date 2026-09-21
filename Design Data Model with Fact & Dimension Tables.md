@@ -95,17 +95,17 @@ Region_ID   → connects Region and Sales<br>
 
 Cross-filter direction determines how filtering flows between related tables.
 
-**Single :** The filter flows in one direction.
+**Single :** The filter flows in one direction.<br>
 
-Customer
-   ↓
-Sales
+Customer<br>
+   ↓<br>
+Sales<br>
 
-**Both : ** The filter can flow in both directions.
+**Both : ** The filter can flow in both directions.<br>
 
-Customer
-   ↕
-Sales
+Customer<br>
+   ↕<br>
+Sales<br>
 
 
 
