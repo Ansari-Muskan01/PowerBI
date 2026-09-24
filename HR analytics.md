@@ -243,21 +243,3 @@ Activate/deactivate relationships<br>
 | `Bridge_DeptLocation.csv`      | Bridge Table    | Connects departments and locations  |
 | `Bridge_JobRoleCompetency.csv` | Bridge Table    | Connects job roles and competencies |
 
-Fact Table = Main table that stores business records and numbers.
-
-`HR_Fact` stores employee records and contains `Department_ID`.
-
-`Dim_Department` stores department details and contains the unique `Department_ID`.
-
-```mermaid
-flowchart TD
-    D[Dim_Department<br/>Department_ID = 101<br/>Department_Name = IT]
-
-    F[HR_Fact<br/>Department_ID = 101<br/>Employee_ID = E001<br/>Employee_ID = E002<br/>Employee_ID = E003]
-
-    D -->|"1 : *"| F
-```
-
-    
-Dimension Table = Table that stores detailed information about something.
-Bridge Table = Table used to connect two tables when their relationship is many-to-many.
