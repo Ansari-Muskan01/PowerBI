@@ -180,9 +180,16 @@ Cardinality tells us how many records from one table can be related to records i
 
 In Power BI, the main cardinality options are:
 One-to-many (1:*)<br>
+One record in one table can be related to many records in another table.<br>
+
 Many-to-one (*:1)<br>
+Many records in one table can be related to one record in another table.<br>
+
 One-to-one (1:1)<br>
+One record in one table is related to only one record in another table.<br>
+
 Many-to-many (:)<br>
+Many records in one table can be related to many records in another table.<br>
 
 | Relationship                              | Cardinality |
 | ----------------------------------------- | ----------- |
