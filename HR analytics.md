@@ -249,18 +249,12 @@ Fact Table = Main table that stores business records and numbers.
 
 `Dim_Department` stores department details and contains the unique `Department_ID`.
 
-```text
-Dim_Department
-Department_ID = 101
-Department_Name = IT
-        │
-        │ 1 : *
-        ↓
-HR_Fact
-Department_ID = 101
-Employee_ID = E001
-Employee_ID = E002
-Employee_ID = E003
-```
+flowchart TD
+    D["Dim_Department<br/>Department_ID = 101<br/>Department_Name = IT"]
+    F["HR_Fact<br/>Department_ID = 101<br/>Employee_ID = E001<br/>Employee_ID = E002<br/>Employee_ID = E003"]
+
+    D -->|"1 : *"| F
+
+    
 Dimension Table = Table that stores detailed information about something.
 Bridge Table = Table used to connect two tables when their relationship is many-to-many.
