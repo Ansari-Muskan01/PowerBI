@@ -249,11 +249,14 @@ Fact Table = Main table that stores business records and numbers.
 
 `Dim_Department` stores department details and contains the unique `Department_ID`.
 
+```mermaid
 flowchart TD
-    D["Dim_Department<br/>Department_ID = 101<br/>Department_Name = IT"]
-    F["HR_Fact<br/>Department_ID = 101<br/>Employee_ID = E001<br/>Employee_ID = E002<br/>Employee_ID = E003"]
+    D[Dim_Department<br/>Department_ID = 101<br/>Department_Name = IT]
+
+    F[HR_Fact<br/>Department_ID = 101<br/>Employee_ID = E001<br/>Employee_ID = E002<br/>Employee_ID = E003]
 
     D -->|"1 : *"| F
+```
 
     
 Dimension Table = Table that stores detailed information about something.
