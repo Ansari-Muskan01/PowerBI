@@ -191,17 +191,18 @@ One record in one table is related to only one record in another table.<br>
 Many-to-many (:)<br>
 Many records in one table can be related to many records in another table.<br>
 
-| Relationship                              | Cardinality |
-| ----------------------------------------- | ----------- |
-| Dim_Department → HR_Fact                  | 1 : *       |
-| Dim_Location → HR_Fact                    | 1 : *       |
-| Dim_JobRole → HR_Fact                     | 1 : *       |
-| Dim_Education → HR_Fact                   | 1 : *       |
-| Dim_Date → HR_Fact                        | 1 : *       |
-| Dim_JobRole → Bridge_JobRoleCompetency    | 1 : *       |
-| Dim_Competency → Bridge_JobRoleCompetency | 1 : *       |
-| Dim_Department → Bridge_DeptLocation      | 1 : *       |
-| Dim_Location → Bridge_DeptLocation        | 1 : *       |
+| Relationship                                                            | Cardinality |
+| ----------------------------------------------------------------------  | ----------- |
+| Bridge_DeptLocation(Department_ID) → Dim_Department(Department_ID)      | * : 1       |
+| Bridge_DeptLocation(Location_ID) → Dim_Location (Location_ID)           | * : 1       |
+| Bridge_JobRoleCompetency(Competency_ID) → Dim_Competency(Competency_ID) | * : 1       |
+| Bridge_JobRoleCompetency(JobRole_ID) → Dim_JobRole(JobRole_ID)          | * : 1       |
+| HR_Fact(Department_ID) → Dim_Department(Department_ID)                  | * : 1       |
+| HR_Fact(Education_ID) → Dim_Education(Education_ID)                     | * : 1       |
+| HR_Fact(JobRole_ID) → Dim_JobRole(JobRole_ID)                           | * : 1       |
+| HR_Fact(Location_ID) →  Dim_Locatio(JobRole_ID)                           | * : 1       |
+
+
 
 
 # Configure Cross-Filter Direction
@@ -242,4 +243,24 @@ Activate/deactivate relationships<br>
 | `Bridge_DeptLocation.csv`      | Bridge Table    | Connects departments and locations  |
 | `Bridge_JobRoleCompetency.csv` | Bridge Table    | Connects job roles and competencies |
 
+Fact Table = Main table that stores business records and numbers.
 
+`HR_Fact` stores employee records and contains `Department_ID`.
+
+`Dim_Department` stores department details and contains the unique `Department_ID`.
+
+```text
+Dim_Department
+Department_ID = 101
+Department_Name = IT
+        │
+        │ 1 : *
+        ↓
+HR_Fact
+Department_ID = 101
+Employee_ID = E001
+Employee_ID = E002
+Employee_ID = E003
+```
+Dimension Table = Table that stores detailed information about something.
+Bridge Table = Table used to connect two tables when their relationship is many-to-many.
