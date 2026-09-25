@@ -1,7 +1,7 @@
 # DAX – Data Analysis Expressions
 
 
-**DAX Aggregated functions : ** Aggregation functions perform calculations on multiple rows and return one result.<BR>
+**DAX Aggregated functions :** Aggregation functions perform calculations on multiple rows and return one result.<BR>
 
 SUM() : Adds all numeric values in a column.<BR>
 AVERAGE() : Calculates the average of numeric values.<BR>
@@ -11,7 +11,7 @@ COUNT() : Counts numeric values in a column.<BR>
 COUNTA() : Counts non-blank values in a column.<BR>
 DISTINCTCOUNT() : Counts unique values in a column.<BR>
 
-**Questions : **
+**Questions :**
 1 - Calculate the total salary paid to all employees. (HINT: SUM())<BR>
 2 - Calculate the average engagement score of all employees. (HINT: AVERAGE())<BR>
 3 - Find the minimum salary among all employees. (HINT: MIN())<BR>
@@ -29,7 +29,7 @@ MINX()<BR>
 MAXX()<BR>
 COUNTX()<BR>
 
-**Questions :**<BR>
+**Questions:** <BR>
 1 - Calculate the total salary of employees who have completed more than 5 years of experience. (Hint: Use SUMX() with FILTER())<BR>
 2 - Count the number of employees whose performance rating is 4 or higher. (Hint: Use COUNTX() with FILTER())<BR>
 3 - Find the minimum salary among employees whose performance rating is 4.  (Hint: Use MINX() with FILTER().)<BR>
