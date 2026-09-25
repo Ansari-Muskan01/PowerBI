@@ -23,11 +23,11 @@ DISTINCTCOUNT() : Counts unique values in a column.<BR>
 
 **DAX Iterative Functions :** Iterative functions are used when we need to perform a calculation for each row first, and then get one final result.<BR>
 
-SUMX()<BR>
-AVERAGEX()<BR>
-MINX()<BR>
-MAXX()<BR>
-COUNTX()<BR>
+SUMX() : Calculates a value for each row and then adds all the calculated values.<BR>
+AVERAGEX(): Calculates a value for each row and then finds the average of the calculated values.<BR>
+MINX() : Calculates a value for each row and then finds the smallest calculated value.<BR>
+MAXX() : Calculates a value for each row and then finds the largest calculated value.<BR>
+COUNTX() : Checks a value for each row and counts how many results are available.<BR>
 
 **Questions:** <BR>
 1 - Calculate the total salary of employees who have completed more than 5 years of experience. (Hint: Use SUMX() with FILTER())<BR>
