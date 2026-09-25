@@ -5,8 +5,8 @@
 
 SUM() : Adds all numeric values in a column.<BR>
 AVERAGE() : Calculates the average of numeric values.<BR>
-MIN() : Returns the largest value from a column.<BR>
-MAX() : Counts numeric values in a column.<BR>
+MIN() : Returns the smallest value from a column.<BR>
+MAX() : Returns the largest value from a column.<BR>
 COUNT() : Counts numeric values in a column.<BR>
 COUNTA() : Counts non-blank values in a column.<BR>
 DISTINCTCOUNT() : Counts unique values in a column.<BR>
@@ -39,26 +39,3 @@ COUNTX() : Checks a value for each row and counts how many results are available
 Normal functions → directly work on a column.
 X functions → first calculate for each row, then give the final result.
 
-
-DAX Operators
-
-1 - Arithmetic Operators
-+    Addition
--    Subtraction
-*    Multiplication
-/    Division
-
-Comparison Operators
-=     Equal to
-<>    Not equal to
- >     Greater than
-<     Less than
->=    Greater than or equal to
-<=    Less than or equal to
-
-Logical Operators
-&&    AND
-||    OR
-
-Calculate the salary after a 10% hike.
-Calculate the remaining salary amount after deducting 10%.
