@@ -11,7 +11,7 @@ COUNT() : Counts numeric values in a column.<BR>
 COUNTA() : Counts non-blank values in a column.<BR>
 DISTINCTCOUNT() : Counts unique values in a column.<BR>
 
-**Questions :**
+**Questions :**<BR>
 1 - Calculate the total salary paid to all employees. (HINT: SUM())<BR>
 2 - Calculate the average engagement score of all employees. (HINT: AVERAGE())<BR>
 3 - Find the minimum salary among all employees. (HINT: MIN())<BR>
