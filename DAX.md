@@ -51,7 +51,7 @@ DAX Operators
 Comparison Operators
 =     Equal to
 <>    Not equal to
->     Greater than
+ >     Greater than
 <     Less than
 >=    Greater than or equal to
 <=    Less than or equal to
