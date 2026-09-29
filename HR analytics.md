@@ -1,3 +1,9 @@
+# 1. HR Analytics Dashboard – Project Objective
+
+The objective of this project is to analyze employee data and understand key HR metrics such as employee count, salary, performance, engagement, satisfaction, attrition, experience, training, promotion and work-life balance.
+
+
+
 **1. HR_Fact.csv**
 
 | Column                       | Data Description                                                        |
