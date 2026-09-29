@@ -36,6 +36,6 @@ COUNTX() : Checks a value for each row and counts how many results are available
 4 - Calculate the average salary of employees who have received a promotion in the last 3 years. (Hint: Use AVERAGEX() with FILTER().)<BR>
 5 - Find the maximum salary among employees who have completed more than 5 years of experience. (Hint: Use MAXX() with FILTER().)<BR>
 
-Normal functions → directly work on a column.
-X functions → first calculate for each row, then give the final result.
+Normal functions → Directly work with a column and return one result.<BR>
+X functions → Evaluate an expression row by row and then return one final result.<BR>
 
