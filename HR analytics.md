@@ -206,9 +206,7 @@ Many records in one table can be related to many records in another table.<br>
 | HR_Fact(Department_ID) → Dim_Department(Department_ID)                  | * : 1       |
 | HR_Fact(Education_ID) → Dim_Education(Education_ID)                     | * : 1       |
 | HR_Fact(JobRole_ID) → Dim_JobRole(JobRole_ID)                           | * : 1       |
-| HR_Fact(Location_ID) →  Dim_Locatio(JobRole_ID)                           | * : 1       |
-
-
+| HR_Fact(Location_ID) →  Dim_Locatio(JobRole_ID)                         | * : 1       |
 
 
 # Configure Cross-Filter Direction
@@ -234,9 +232,6 @@ Change cross-filter direction<br>
 Activate/deactivate relationships<br>
 
 
-
-
-
 | File Name                      | Table Type      | Main Purpose                        |
 | ------------------------------ | --------------- | ----------------------------------- |
 | `HR_Fact.csv`                  | Fact Table      | Employee/business records           |
@@ -248,4 +243,6 @@ Activate/deactivate relationships<br>
 | `Dim_Date.csv`                 | Dimension Table | Date/time information               |
 | `Bridge_DeptLocation.csv`      | Bridge Table    | Connects departments and locations  |
 | `Bridge_JobRoleCompetency.csv` | Bridge Table    | Connects job roles and competencies |
+
+
 
