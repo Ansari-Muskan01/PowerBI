@@ -33,7 +33,7 @@ COUNTX() : Checks a value for each row and counts how many results are available
 1 - Calculate the total salary of employees who have completed more than 5 years of experience. (Hint: Use SUMX() with FILTER())<BR>
 2 - Count the number of employees whose performance rating is greater than 4. (Hint: Use COUNTX() with FILTER())<BR>
 3 - Find the minimum salary among employees whose performance rating is 4.  (Hint: Use MINX() with FILTER().)<BR>
-4 - Calculate the average salary of employees who have received a promotion in the last 3 years. (Hint: Use AVERAGEX() with FILTER().)<BR>
+4 - Calculate the average salary of employees whose Promotion_Last_3_Years value is "Yes". (HINT: Use AVERAGEX() with FILTER().)<BR>
 5 - Find the maximum salary among employees who have completed more than 5 years of experience. (Hint: Use MAXX() with FILTER().)<BR>
 
 Normal functions → Directly work with a column and return one result.<BR>
