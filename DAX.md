@@ -17,7 +17,7 @@ DISTINCTCOUNT() : Counts unique values in a column.<BR>
 3 - Find the minimum salary among all employees. (HINT: MIN())<BR>
 4 - Find the maximum salary among all employees. (HINT: MAX())<BR>
 5 - Count the number of employees using Employee_ID. (HINT: COUNT())<BR>
-6 - Count the number of employees who have a Gender value. (HINT: COUNTA())<BR>
+6 - Count the number of employees whose Gender value is not blank.(HINT: COUNTA())<BR>
 7 - Calculate the number of unique departments using Department_ID. (HINT: DISTINCTCOUNT())<BR>
 
 
