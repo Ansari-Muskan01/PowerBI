@@ -166,23 +166,6 @@ flowchart TD
     SD3 --> D5
 ```
 
-# Define Cardinality
-
-Cardinality tells us how many records from one table can be related to records in another table.<br>
-
-In Power BI, the main cardinality options are:
-One-to-many (1:*)<br>
-One record in one table can be related to many records in another table.<br>
-
-Many-to-one (*:1)<br>
-Many records in one table can be related to one record in another table.<br>
-
-One-to-one (1:1)<br>
-One record in one table is related to only one record in another table.<br>
-
-Many-to-many (:)<br>
-Many records in one table can be related to many records in another table.<br>
-
 | Relationship                                                            | Cardinality |
 | ----------------------------------------------------------------------  | ----------- |
 | Bridge_DeptLocation(Department_ID) → Dim_Department(Department_ID)      | * : 1       |
@@ -193,30 +176,6 @@ Many records in one table can be related to many records in another table.<br>
 | HR_Fact(Education_ID) → Dim_Education(Education_ID)                     | * : 1       |
 | HR_Fact(JobRole_ID) → Dim_JobRole(JobRole_ID)                           | * : 1       |
 | HR_Fact(Location_ID) →  Dim_Locatio(JobRole_ID)                         | * : 1       |
-
-
-# Configure Cross-Filter Direction
-
-Cross-filter direction tells Power BI: In which direction should filtering travel between the related tables?<br>
-
-There are two main options:<br>
-Single<br>
-Both<br>
-
-
-# 4) Manage Relationships in Model View
-
-In Power BI:<br>
-Model View → Manage relationships<br>
-
-Here we can:<br>
-Create relationships<br>
-Edit relationships<br>
-Delete relationships<br>
-Change cardinality<br>
-Change cross-filter direction<br>
-Activate/deactivate relationships<br>
-
 
 
 
