@@ -96,18 +96,18 @@ Questions :<BR>
 
 # Text Function
 
-1 - Create a new column by joining Employee_ID and Gender with " - " between them.              	 (Hint: &)            Expected Output: 10117 - Female
-2 - Create a new column that returns the first 3 characters of Employee_ID.                     	  (Hint: LEFT())       Expected Output: 101
-3 - Create a new column that returns the last 2 characters of Employee_ID.                      	  (Hint: RIGHT())      Expected Output: 17
-4 - Create a new column that extracts 3 characters starting from the 2nd character of Employee_ID. 	(Hint: MID())        Expected Output: 011
-5 - Create a new column that returns the number of characters in Department_Name. 			(Hint: LEN()) 	     Expected Output: 15
-6 - Create a new column that converts Department_Name into uppercase. 					(Hint: UPPER())      Expected Output: HUMAN RESOURCES
-7 - Create a new column that converts JobRole_Name into lowercase. 					(Hint: LOWER())      Expected Output: manager
-8 - Create a new column that removes any extra spaces from Department_Name. 				(Hint: TRIM()) 	     Expected Output: Human Resources
-9 - Create a new column that searches for the letter a in Department_Name. 				(Hint: SEARCH())     Expected Output: 3
-10 - Create a new column that finds the position of the letter e in Location_Name. 			(Hint: FIND())
-11 - Create a new column that replaces the word Manager with Mgr in JobRole_Name. 			(Hint: SUBSTITUTE()) Expected Output: Mgr
-12 - Create a new column that replaces the first 2 characters of Employee_ID with "EMP". 		(Hint: REPLACE())    Expected Output: EMP117
+1 - Create a new column by joining Employee_ID and Gender with " - " between them.              	  (Hint: &)            Expected Output: 10117 - Female<BR>
+2 - Create a new column that returns the first 3 characters of Employee_ID.                     	  (Hint: LEFT())       Expected Output: 101<BR>
+3 - Create a new column that returns the last 2 characters of Employee_ID.                      	  (Hint: RIGHT())      Expected Output: 17<BR>
+4 - Create a new column that extracts 3 characters starting from the 2nd character of Employee_ID. 	(Hint: MID())        Expected Output: 011<BR>
+5 - Create a new column that returns the number of characters in Department_Name. 			            (Hint: LEN()) 	     Expected Output: 15<BR>
+6 - Create a new column that converts Department_Name into uppercase. 				                    	(Hint: UPPER())      Expected Output: HUMAN RESOURCES<BR>
+7 - Create a new column that converts JobRole_Name into lowercase. 					                        (Hint: LOWER())      Expected Output: manager<BR>
+8 - Create a new column that removes any extra spaces from Department_Name. 				                (Hint: TRIM()) 	     Expected Output: Human Resources<BR>
+9 - Create a new column that searches for the letter a in Department_Name. 				                  (Hint: SEARCH())     Expected Output: 3<BR>
+10 - Create a new column that finds the position of the letter e in Location_Name. 			            (Hint: FIND())<BR>
+11 - Create a new column that replaces the word Manager with Mgr in JobRole_Name. 			            (Hint: SUBSTITUTE()) Expected Output: Mgr<BR>
+12 - Create a new column that replaces the first 2 characters of Employee_ID with "EMP". 		        (Hint: REPLACE())    Expected Output: EMP117<BR>
 
 
 **Custom Column** : A Custom Column is created in Power Query using a formula based on existing columns.<BR>
