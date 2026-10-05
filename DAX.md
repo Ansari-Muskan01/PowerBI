@@ -47,6 +47,7 @@ OR() : Checks whether at least one of the given conditions is TRUE.<BR>
 NOT() : Reverses the result of a condition. TRUE becomes FALSE and FALSE becomes TRUE.<BR>
 SWITCH() : Checks multiple conditions or values and returns the matching result.<BR>
 
+Questions :<BR>
 1 - Create a column to identify employees as "High Salary" if their salary is greater than 50000, otherwise "Low Salary". (Hint: IF())<BR>
 2 - Create a column to identify employees as "Eligible" if their experience is greater than 5 years AND their performance rating is greater than 4. Otherwise, return "Not Eligible".(Hint: IF() with AND())<BR>
 3 - Create a column to identify employees as "Eligible for Bonus" if their years of experience is greater than 5 OR their salary is greater than 70000. Otherwise, return "Not Eligible for Bonus". (Hint: IF() with OR())<BR>
@@ -76,6 +77,7 @@ TODAY() returns the current date.<BR>
 NOW() returns the current date and time.<BR>
 FORMAT() converts a value into a specified format. "MMMM" returns the full month name, and "dddd" returns the full weekday name.<BR>
 
+Questions :<BR>
 1 - Create a new column that extracts the year from the Date_of_Joining column. Hint: YEAR()<BR>
 2 - Create a new column that extracts the month number from the Date_of_Joining column. Hint: MONTH()<BR>
 3 - Create a new column that extracts the day from the Date_of_Joining column. Hint: DAY()<BR>
