@@ -109,6 +109,10 @@ Questions :<BR>
 11 - Create a new column that replaces the word Manager with Mgr in JobRole_Name. 			            (Hint: SUBSTITUTE()) Expected Output: Mgr<BR>
 12 - Create a new column that replaces the first 2 characters of Employee_ID with "EMP". 		        (Hint: REPLACE())    Expected Output: EMP117<BR>
 
+# Table 
+
+Create a new table that contains only the employees whose Gender is "Male".    Hint: FILTER() <BR>
+Create a new table that contains only the employees whose Gender is "Female".  Hint: FILTER() <BR>
 
 **Custom Column** : A Custom Column is created in Power Query using a formula based on existing columns.<BR>
 
