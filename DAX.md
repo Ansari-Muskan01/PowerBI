@@ -60,6 +60,41 @@ SWITCH() : Checks multiple conditions or values and returns the matching result.
 1 → "Poor"<BR>
 (Hint: SWITCH())<BR>
 
+# Date Function
+
+YEAR() returns the year from a date.<BR>
+MONTH() returns the month number from a date, from 1 to 12.<BR>
+DAY() returns the day of the month from a date, from 1 to 31.<BR>
+QUARTER() returns the quarter number from a date, from 1 to 4.<BR>
+WEEKDAY() returns a number representing the day of the week.<BR>
+WEEKNUM() returns the week number of a date within the year.<BR>
+DATE() creates a date using a specified year, month, and day.<BR>
+EDATE() returns a date that is a specified number of months before or after a given date.<BR>
+DATEDIFF() calculates the difference between two dates using a specified time unit.<BR>
+EOMONTH() returns the last date of a month. Using -1 and adding 1 gives the first date of the current month.<BR>
+TODAY() returns the current date.<BR>
+NOW() returns the current date and time.<BR>
+FORMAT() converts a value into a specified format. "MMMM" returns the full month name, and "dddd" returns the full weekday name.<BR>
+
+1 - Create a new column that extracts the year from the Date_of_Joining column. Hint: YEAR()<BR>
+2 - Create a new column that extracts the month number from the Date_of_Joining column. Hint: MONTH()<BR>
+3 - Create a new column that extracts the day from the Date_of_Joining column. Hint: DAY()<BR>
+4 - Create a new column that returns the quarter number from the Date_of_Joining column. Hint: QUARTER()<BR>
+5 - Create a new column that returns the day of the week number for each employee's Date_of_Joining. Hint: WEEKDAY()<BR>
+6 - Create a new column that returns the week number of the year for each employee's Date_of_Joining. Hint: WEEKNUM()<BR>
+7 - Create a new column that creates a date using the year, month, and day from Date_of_Joining. Hint: DATE()<BR>
+8 - Create a new column that adds 1 year to each employee's Date_of_Joining. Hint: EDATE()<BR>
+9 - Create a new column that returns the number of days between Date_of_Joining and Last_Review_Date. Hint: DATEDIFF()<BR>
+10 - Create a new column that returns the first date of the month in which the employee joined. Hint: EOMONTH()<BR>
+11 - Create a new column that returns the current date. Hint: TODAY()<BR>
+12 - Create a new column that returns the current date and time. Hint: NOW()<BR>
+13 - Create a new column that shows the joining month name from Date_of_Joining. Hint: FORMAT()<BR>
+14 - Create a new column that shows the joining weekday name from Date_of_Joining. Hint: FORMAT()<BR>
+15 - Create a new column that identifies whether the employee's Date_of_Joining falls on a weekday or weekend. Hint: WEEKDAY() + IF()<BR>
+
+
+
+
 **Custom Column** : A Custom Column is created in Power Query using a formula based on existing columns.<BR>
 
 Path: Home → Transform Data → Power Query → Add Column → Custom Column<BR>
