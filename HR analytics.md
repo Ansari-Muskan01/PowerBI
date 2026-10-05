@@ -138,20 +138,6 @@ The objective of this project is to analyze employee data and understand key HR 
 **Create Relationships Between Tables**
 
 
-| From Table               | Column              | To Table                 | Column        |
-| ------------------------ | ------------------- | ------------------------ | ------------- |
-| HR_Fact                  | Department_ID       | Dim_Department           | Department_ID |
-| HR_Fact                  | Location_ID         | Dim_Location             | Location_ID   |
-| HR_Fact                  | JobRole_ID          | Dim_JobRole              | JobRole_ID    |
-| HR_Fact                  | Education_ID        | Dim_Education            | Education_ID  |
-| HR_Fact                  | Joining_Date_ID     | Dim_Date                 | Date_ID       |
-| HR_Fact                  | Last_Review_Date_ID | Dim_Date                 | Date_ID       |
-| Dim_JobRole              | JobRole_ID          | Bridge_JobRoleCompetency | JobRole_ID    |
-| Bridge_JobRoleCompetency | Competency_ID       | Dim_Competency           | Competency_ID |
-| Dim_Department           | Department_ID       | Bridge_DeptLocation      | Department_ID |
-| Bridge_DeptLocation      | Location_ID         | Dim_Location             | Location_ID   |
-
-
 ```mermaid
 flowchart TD
     F[HR_Fact]
@@ -231,18 +217,6 @@ Change cardinality<br>
 Change cross-filter direction<br>
 Activate/deactivate relationships<br>
 
-
-| File Name                      | Table Type      | Main Purpose                        |
-| ------------------------------ | --------------- | ----------------------------------- |
-| `HR_Fact.csv`                  | Fact Table      | Employee/business records           |
-| `Dim_Department.csv`           | Dimension Table | Department information              |
-| `Dim_Location.csv`             | Dimension Table | Location information                |
-| `Dim_JobRole.csv`              | Dimension Table | Job role information                |
-| `Dim_Education.csv`            | Dimension Table | Education information               |
-| `Dim_Competency.csv`           | Dimension Table | Competency information              |
-| `Dim_Date.csv`                 | Dimension Table | Date/time information               |
-| `Bridge_DeptLocation.csv`      | Bridge Table    | Connects departments and locations  |
-| `Bridge_JobRoleCompetency.csv` | Bridge Table    | Connects job roles and competencies |
 
 
 
