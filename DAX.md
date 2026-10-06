@@ -37,10 +37,19 @@ Syntax: DISTINCTCOUNT(Table[Column])<BR>
 **DAX Iterative Functions :** Iterative functions are used when we need to perform a calculation for each row first, and then get one final result.<BR>
 
 SUMX() : Calculates a value for each row and then adds all the calculated values.<BR>
+Syntax: SUMX(Table, Expression)<BR>
+
 AVERAGEX(): Calculates a value for each row and then finds the average of the calculated values.<BR>
+Syntax: AVERAGEX(Table, Expression)<BR>
+
 MINX() : Calculates a value for each row and then finds the smallest calculated value.<BR>
+Syntax: MINX(Table, Expression)<BR>
+
 MAXX() : Calculates a value for each row and then finds the largest calculated value.<BR>
+Syntax: MAXX(Table, Expression)<BR>
+
 COUNTX() : Checks a value for each row and counts how many results are available.<BR>
+Syntax: COUNTX(Table, Expression)
 
 **Questions:** <BR>
 1 - Calculate the total salary of employees who have completed more than 5 years of experience. (Hint: Use SUMX() with FILTER())<BR>
