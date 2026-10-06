@@ -4,12 +4,25 @@
 **DAX Aggregated functions :** Aggregation functions perform calculations on multiple rows and return one result.<BR>
 
 SUM() : Adds all numeric values in a column.<BR>
+Syntax: SUM(Table[Column])<BR>
+
 AVERAGE() : Calculates the average of numeric values.<BR>
+Syntax: AVERAGE(Table[Column])<BR>
+
 MIN() : Returns the smallest value from a column.<BR>
+Syntax: MIN(Table[Column])<BR>
+
 MAX() : Returns the largest value from a column.<BR>
+Syntax: MAX(Table[Column])<BR>
+
 COUNT() : Counts numeric values in a column.<BR>
+Syntax: COUNT(Table[Column])<BR>
+
 COUNTA() : Counts non-blank values in a column.<BR>
+Syntax: COUNTA(Table[Column])<BR>
+
 DISTINCTCOUNT() : Counts unique values in a column.<BR>
+Syntax: DISTINCTCOUNT(Table[Column])<BR>
 
 **Questions :**<BR>
 1 - Calculate the total salary paid to all employees. (HINT: SUM())<BR>
