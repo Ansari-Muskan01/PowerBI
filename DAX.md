@@ -64,10 +64,19 @@ X functions → Evaluate an expression row by row and then return one final resu
 **DAX Logical Functions**
 
 IF() : Checks a condition and returns one value if the condition is TRUE and another value if the condition is FALSE.<BR>
+Syntax: IF(Condition, Value_If_True, Value_If_False)<BR>
+
 AND() : Checks whether all given conditions are TRUE.<BR>
+Syntax: AND(Condition1, Condition2)<BR>
+
 OR() : Checks whether at least one of the given conditions is TRUE.<BR>
+Syntax: OR(Condition1, Condition2)<BR>
+
 NOT() : Reverses the result of a condition. TRUE becomes FALSE and FALSE becomes TRUE.<BR>
+Syntax: NOT(Condition)<BR>
+
 SWITCH() : Checks multiple conditions or values and returns the matching result.<BR>
+Syntax: SWITCH(Expression, Value1, Result1, Value2, Result2, ..., Else)<BR>
 
 Questions :<BR>
 1 - Create a column to identify employees as "High Salary" if their salary is greater than 50000, otherwise "Low Salary". (Hint: IF())<BR>
@@ -86,18 +95,43 @@ Questions :<BR>
 # Date Function
 
 YEAR() returns the year from a date.<BR>
+Syntax: YEAR(Date)<BR>
+
 MONTH() returns the month number from a date, from 1 to 12.<BR>
+Syntax: MONTH(Date)<BR>
+
 DAY() returns the day of the month from a date, from 1 to 31.<BR>
+Syntax: DAY(Date)<BR>
+
 QUARTER() returns the quarter number from a date, from 1 to 4.<BR>
+Syntax: QUARTER(Date)<BR>
+
 WEEKDAY() returns a number representing the day of the week.<BR>
+Syntax: WEEKDAY(Date, Return_Type)<BR>
+
 WEEKNUM() returns the week number of a date within the year.<BR>
+Syntax: WEEKNUM(Date, Return_Type)<BR>
+
 DATE() creates a date using a specified year, month, and day.<BR>
+Syntax: DATE(Year, Month, Day)<BR>
+
 EDATE() returns a date that is a specified number of months before or after a given date.<BR>
+Syntax: EDATE(Start_Date, Months)<BR>
+
 DATEDIFF() calculates the difference between two dates using a specified time unit.<BR>
+Syntax: DATEDIFF(Start_Date, End_Date, Interval)<BR>
+
 EOMONTH() returns the last date of a month. Using -1 and adding 1 gives the first date of the current month.<BR>
+Syntax: EOMONTH(Start_Date, Months)<BR>
+
 TODAY() returns the current date.<BR>
+Syntax: TODAY()<BR>
+
 NOW() returns the current date and time.<BR>
+Syntax: NOW()<BR>
+
 FORMAT() converts a value into a specified format. "MMMM" returns the full month name, and "dddd" returns the full weekday name.<BR>
+Syntax: FORMAT(Value, Format_String)<BR>
 
 Questions :<BR>
 1 - Create a new column that extracts the year from the Date_of_Joining column. Hint: YEAR()<BR>
@@ -117,6 +151,42 @@ Questions :<BR>
 15 - Create a new column that identifies whether the employee's Date_of_Joining falls on a weekday or weekend. Hint: WEEKDAY() + IF()<BR>
 
 # Text Function
+
+& : Joins two or more text values together.<BR>
+Syntax: Text1 & Text2<BR>
+
+LEFT() : Returns a specified number of characters from the beginning of a text value.<BR>
+Syntax: LEFT(Text, Number_Of_Characters)<BR>
+
+RIGHT() : Returns a specified number of characters from the end of a text value.<BR>
+Syntax: RIGHT(Text, Number_Of_Characters)<BR>
+
+MID() : Returns a specified number of characters from a text value, starting from a given position.<BR>
+Syntax: MID(Text, Start_Position, Number_Of_Characters)<BR>
+
+LEN() : Returns the number of characters in a text value.<BR>
+Syntax: LEN(Text)<BR>
+
+UPPER() : Converts text into uppercase letters.<BR>
+Syntax: UPPER(Text)<BR>
+
+LOWER() : Converts text into lowercase letters.<BR>
+Syntax: LOWER(Text)<BR>
+
+TRIM() : Removes extra spaces from text, leaving a single space between words.<BR>
+Syntax: TRIM(Text)<BR>
+
+SEARCH() : Finds the position of one text value inside another text value. It is not case-sensitive.<BR>
+Syntax: SEARCH(Find_Text, Within_Text, Start_At, Not_Found_Value)<BR>
+
+FIND() : Finds the position of one text value inside another text value. It is case-sensitive.<BR>
+Syntax: FIND(Find_Text, Within_Text, Start_At, Not_Found_Value)<BR>
+
+SUBSTITUTE() : Replaces existing text with new text in a text value.<BR>
+Syntax: SUBSTITUTE(Text, Old_Text, New_Text, Instance_Num)<BR>
+
+REPLACE() : Replaces a specified number of characters in a text value with new text.<BR>
+Syntax: REPLACE(Text, Start_Position, Number_Of_Characters, New_Text)<BR>
 
 1 - Create a new column by joining Employee_ID and Gender with " - " between them.              	  (Hint: &)            Expected Output: 10117 - Female<BR>
 2 - Create a new column that returns the first 3 characters of Employee_ID.                     	  (Hint: LEFT())       Expected Output: 101<BR>
