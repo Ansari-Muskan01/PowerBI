@@ -78,7 +78,7 @@ Syntax: NOT(Condition)<BR>
 SWITCH() : Checks multiple conditions or values and returns the matching result.<BR>
 Syntax: SWITCH(Expression, Value1, Result1, Value2, Result2, ..., Else)<BR>
 
-Questions :<BR>
+**Questions :**<BR>
 1 - Create a column to identify employees as "High Salary" if their salary is greater than 50000, otherwise "Low Salary". (Hint: IF())<BR>
 2 - Create a column to identify employees as "Eligible" if their experience is greater than 5 years AND their performance rating is greater than 4. Otherwise, return "Not Eligible".(Hint: IF() with AND())<BR>
 3 - Create a column to identify employees as "Eligible for Bonus" if their years of experience is greater than 5 OR their salary is greater than 70000. Otherwise, return "Not Eligible for Bonus". (Hint: IF() with OR())<BR>
@@ -133,7 +133,7 @@ Syntax: NOW()<BR>
 FORMAT() converts a value into a specified format. "MMMM" returns the full month name, and "dddd" returns the full weekday name.<BR>
 Syntax: FORMAT(Value, Format_String)<BR>
 
-Questions :<BR>
+**Questions :**<BR>
 1 - Create a new column that extracts the year from the Date_of_Joining column. Hint: YEAR()<BR>
 2 - Create a new column that extracts the month number from the Date_of_Joining column. Hint: MONTH()<BR>
 3 - Create a new column that extracts the day from the Date_of_Joining column. Hint: DAY()<BR>
@@ -187,6 +187,8 @@ Syntax: SUBSTITUTE(Text, Old_Text, New_Text, Instance_Num)<BR>
 
 REPLACE() : Replaces a specified number of characters in a text value with new text.<BR>
 Syntax: REPLACE(Text, Start_Position, Number_Of_Characters, New_Text)<BR>
+
+**Questions :**<BR>
 
 1 - Create a new column by joining Employee_ID and Gender with " - " between them.              	  (Hint: &)            Expected Output: 10117 - Female<BR>
 2 - Create a new column that returns the first 3 characters of Employee_ID.                     	  (Hint: LEFT())       Expected Output: 101<BR>
