@@ -21,45 +21,40 @@ Department and job role level workforce trends<br>
 The report will help HR teams identify important workforce patterns and areas that may require attention.<br>
 
 
-Page 1 — HR Overview
+**Page 1 — HR Overview**<br>
 
-KPI Cards
+**KPI Cards**<br>
+Total Employees<br>
+Total Salary<br>
+Average Salary<br>
+Max Salary<br>
+Min Salary<br>
 
-Total Employees
-Total Salary
-Average Salary
-Max Salary
-Min Salary
+**Charts**<br>
+Employee Count by Department — Bar Chart<br>
+Employee Count by Gender — Donut Chart<br>
 
-Charts
+**Matrix**
+Performance Category by Department<br>
+Gender by Department<br>
 
-Employee Count by Department — Bar Chart
-Employee Count by Gender — Donut Chart
+**Page 2 — Performance, Attrition & Employee Insights**
 
-Matrix
+**KPI Cards**<br>
+Attrition Rate %<br>
+Avg Performance Rating<br>
+Avg Engagement Score<br>
+Avg Satisfaction Score<br>
+Avg Training Hours<br>
+Avg Overtime Hours<br>
 
-Performance Category by Department
-Gender by Department
-
-Page 2 — Performance, Attrition & Employee Insights
-
-KPI Cards
-
-Attrition Rate %
-Avg Performance Rating
-Avg Engagement Score
-Avg Satisfaction Score
-Avg Training Hours
-Avg Overtime Hours
-
-Charts
-
-Performance Category Distribution
-Avg Performance Rating by Department
-Engagement Score Distribution
-Attrition by Department
-Work-Life Balance Distribution
-Avg Training Hours by Department
+**Charts**<br>
+Performance Category Distribution<br>
+Avg Performance Rating by Department<br>
+Engagement Score Distribution<br>
+Attrition by Department<br>
+Work-Life Balance Distribution<br>
+Avg Training Hours by Department<br>
 
 
 
