@@ -21,22 +21,27 @@ Department and job role level workforce trends<br>
 The report will help HR teams identify important workforce patterns and areas that may require attention.<br>
 
 
-**Page 1 — HR Overview**<br>
+**Page 1 — Employee Distribution**<br>
 
-**KPI Cards**<br>
+**Cards**<br>
 Total Employees<br>
-Total Salary<br>
-Average Salary<br>
-Max Salary<br>
-Min Salary<br>
+Male Count<br>
+Female Count<br>
+Average Tenure (Years)<br>
+Average Experience (Years)<br>
 
 **Charts**<br>
-Employee Count by Department — Bar Chart<br>
-Employee Count by Gender — Donut Chart<br>
+Employee Distribution by Department — Bar Chart<br>
+Employee Distribution by Gender — Donut Chart<br>
+Employee Distribution by Location & Gender — Clustered Column Chart<br>
 
-**Matrix**
-Performance Category by Department<br>
-Gender by Department<br>
+**Matrices**<br>
+4. Performance Rating by Department — Matrix<br>
+5. Department Distribution by Gender — Matrix<br>
+
+**Slicers**
+Gender<br>
+Department<br>
 
 **Page 2 — Performance, Attrition & Employee Insights**
 
