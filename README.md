@@ -21,45 +21,45 @@ Department and job role level workforce trends<br>
 The report will help HR teams identify important workforce patterns and areas that may require attention.<br>
 
 
-**Page 1 — Employee Distribution**<br>
+# Page 1 — Employee & Workforce Overview
 
 **Cards**<br>
 Total Employees<br>
 Male Count<br>
 Female Count<br>
 Average Tenure (Years)<br>
-Average Experience (Years)<br>
+Average Years of Experience<br>
 
-**Charts**<br>
+**Visuals**<br>
 Employee Distribution by Department — Bar Chart<br>
 Employee Distribution by Gender — Donut Chart<br>
 Employee Distribution by Location & Gender — Clustered Column Chart<br>
-
-**Matrices**<br>
-4. Performance Rating by Department — Matrix<br>
-5. Department Distribution by Gender — Matrix<br>
+Performance Rate by Department — Matrix<br>
+Department Distribution by Gender — Matrix<br>
 
 **Slicers**<br>
 Gender<br>
 Department<br>
 
-**Page 2 — Performance, Attrition & Employee Insights**
+**purpose:** Understand the employee workforce structure and distribution.<br>
 
-**KPI Cards**<br>
-Attrition Rate %<br>
-Avg Performance Rating<br>
-Avg Engagement Score<br>
-Avg Satisfaction Score<br>
-Avg Training Hours<br>
-Avg Overtime Hours<br>
+# Page 2 — Salary & Compensation Analysis
 
-**Charts**<br>
-Performance Category Distribution<br>
-Avg Performance Rating by Department<br>
-Engagement Score Distribution<br>
-Attrition by Department<br>
-Work-Life Balance Distribution<br>
-Avg Training Hours by Department<br>
+**Cards**<br>
+Total Salary<br>
+Maximum Salary<br>
+Minimum Salary<br>
+Average Salary<br>
+Average Hike %<br>
 
+**Visuals**<br>
+Salary by Years of Experience — Line Chart<br>
+Salary by Job Role & Gender — Stacked Column Chart<br>
+Salary by Department — Treemap<br>
+Salary by Gender — Donut Chart<br>
+Job Role Compensation Matrix  (Hint: Job Role	Average Experience	Average Salary	Average Hike %) <br>
 
+**Slicer**<br>
+Job Role Name<br>
 
+**purpose:** Understand salary distribution and compensation across employees and job roles.<br>
