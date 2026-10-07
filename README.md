@@ -39,7 +39,7 @@ Employee Distribution by Location & Gender — Clustered Column Chart<br>
 4. Performance Rating by Department — Matrix<br>
 5. Department Distribution by Gender — Matrix<br>
 
-**Slicers**
+**Slicers**<br>
 Gender<br>
 Department<br>
 
