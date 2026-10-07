@@ -4,8 +4,7 @@
 
 The objective of this project is to analyze employee data and provide meaningful insights into workforce structure, employee performance, salary, engagement, satisfaction, attrition, experience, training, promotion, and work-life balance.
 
-The Power BI report will help HR teams understand:<br>
-
+**The Power BI report will help HR teams understand:**<br>
 Total number of employees<br>
 Employee distribution across departments, locations, and job roles<br>
 Salary and compensation patterns<br>
