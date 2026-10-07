@@ -63,3 +63,12 @@ Job Role Compensation Matrix  (Hint: Job Role	Average Experience	Average Salary	
 Job Role Name<br>
 
 **purpose:** Understand salary distribution and compensation across employees and job roles.<br>
+
+# Page 3 — Performance, Engagement & Attrition
+
+**Cards**<br>
+Attrition Rate<br>
+Average Performance Rating<br>
+Average Engagement Score<br>
+Average Satisfaction Score<br>
+Average Absenteeism Days<br>
