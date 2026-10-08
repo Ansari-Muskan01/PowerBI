@@ -231,3 +231,6 @@ Reports – A collection of interactive visualizations.<br>
 Dashboards – A single-page view of important information.<br>
 Tiles – Individual visual elements displayed on a dashboard.<br>
 Dataflows – Used to prepare and transform data for reuse.<br>
+
+Connector Link
+https://downloads.mysql.com/archives/c-net/
