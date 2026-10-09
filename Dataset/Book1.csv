@@ -1,0 +1,11 @@
+Order_ID,Month,City,Category,Sales
+O101,Jan,Mumbai,Laptop,40000
+O102,Jan,Pune,Mobile,15000
+O103,Jan,Mumbai,Mobile,20000
+O104,Feb,Pune,Laptop,45000
+O105,Feb,Mumbai,Tablet,10000
+O106,Feb,Nashik,Mobile,18000
+O107,Mar,Mumbai,Laptop,50000
+O108,Mar,Pune,Tablet,12000
+O109,Mar,Nashik,Mobile,22000
+O110,Mar,Mumbai,Mobile,25000
