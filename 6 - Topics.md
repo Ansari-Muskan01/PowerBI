@@ -93,3 +93,11 @@ Drill Down<br>
 Drill Through<br>
 Bookmarks<br>
 
+
+
+A retail store has set a monthly sales target of ₹3,00,000. The store has achieved total sales of ₹2,57,000.
+Create a Gauge Chart to display the actual sales against the target.
+
+A company has set a monthly sales target of ₹1,00,000 for each month. Use the sales data for January, February, and March to create a KPI Visual that displays actual sales performance against the target and shows the sales trend over time.
+
+Using the given Sales_Data table, perform a Group By operation in Power Query to calculate the total sales for each product category. Display the result with two columns: Category and Total Sales
