@@ -9,7 +9,6 @@ Get Data, Load and Transform Data<br>
 # 02. Data Preprocessing and Transformation
 
 Power Query Editor<br>
-
 Remove unnecessary columns<br>
 Remove unnecessary rows<br>
 Use the first row as headers<br>
