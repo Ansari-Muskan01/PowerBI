@@ -85,3 +85,12 @@ Snowflake schema<br>
 Star schema vs. Snowflake schema<br>
 Practical data modeling examples<br>
 Close & Apply<br>
+
+# 06. Interactive Features in Power BI
+
+Buttons<br>
+Tooltips<br>
+Drill Down<br>
+Drill Through<br>
+Bookmarks<br>
+
